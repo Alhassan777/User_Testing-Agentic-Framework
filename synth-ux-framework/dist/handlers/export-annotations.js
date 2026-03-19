@@ -12,6 +12,9 @@ function getColor(severity) {
     return SEVERITY_COLORS[severity?.toLowerCase()] || SEVERITY_COLORS.medium;
 }
 async function generateAnnotatedPNG(screenshotPath, annotations, outputPath) {
+    // #region agent log
+    fetch('http://127.0.0.1:7255/ingest/1b6f5956-6739-418a-9cfd-7c0db23bf1f7',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'8751c4'},body:JSON.stringify({sessionId:'8751c4',location:'export-annotations.js:generateAnnotatedPNG:entry',message:'generateAnnotatedPNG called',data:{screenshotPath,annotationsCount:annotations.length,rectValues:annotations.map(a=>({id:a.id,rect_pct:a.rect_pct,severity:a.severity}))},timestamp:Date.now(),hypothesisId:'H-D,H-E'})}).catch(()=>{});
+    // #endregion
     const image = sharp(screenshotPath);
     const metadata = await image.metadata();
     const width = metadata.width || 1280;
@@ -36,6 +39,9 @@ async function generateAnnotatedPNG(screenshotPath, annotations, outputPath) {
         const badgeSize = 28;
         const badgeX = px - 10;
         const badgeY = py - 10;
+        // #region agent log
+        fetch('http://127.0.0.1:7255/ingest/1b6f5956-6739-418a-9cfd-7c0db23bf1f7',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'8751c4'},body:JSON.stringify({sessionId:'8751c4',location:'export-annotations.js:badgeCalc',message:'badge pixel coords',data:{index:i,annId:ann.id,px,py,pw,ph,badgeX,badgeY,badgeXNegative:badgeX<0,badgeYNegative:badgeY<0,labelY:py+ph+20,labelOverflowsBottom:(py+ph+20)>height,imageWidth:width,imageHeight:height},timestamp:Date.now(),hypothesisId:'H-E'})}).catch(()=>{});
+        // #endregion
         svgParts.push(`
       <circle cx="${badgeX + badgeSize / 2}" cy="${badgeY + badgeSize / 2}" r="${badgeSize / 2}" 
               fill="${color.hex}" stroke="white" stroke-width="2"/>

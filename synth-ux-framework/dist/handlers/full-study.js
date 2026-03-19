@@ -106,12 +106,18 @@ export async function handleRunFullUxStudy(args) {
             const passwordInput = await page.$('input[type="password"]');
             const loginButton = await page.$('button[type="submit"], button:has-text("Login"), button:has-text("Sign in"), input[type="submit"]');
             if (emailInput && passwordInput && loginButton) {
+                const preLoginUrl = page.url();
                 await emailInput.fill(credentials.email);
                 await passwordInput.fill(credentials.password);
                 await loginButton.click();
+                // Wait for navigation away from login page (URL change signals successful redirect)
+                await page.waitForURL(u => u.toString() !== preLoginUrl, { timeout: 15000 }).catch(() => { });
+                // Then wait for the new page to fully load
                 await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => { });
+                // Extra buffer for SPAs that render content after network idle (e.g. lazy data fetches)
+                await page.waitForTimeout(2000);
                 await capture('after_login');
-                log('Login completed', 'PHASE_0');
+                log(`Login completed — landed on: ${page.url()}`, 'PHASE_0');
             }
         }
         // Capture additional screens
@@ -280,19 +286,25 @@ export async function handleRunFullUxStudy(args) {
             timeMetricsList.push(timeMetrics);
             fs.writeFileSync(path.join(studyDir, `time_metrics_${persona.id}.json`), JSON.stringify(timeMetrics, null, 2));
             log(`Time metrics for ${persona.name}: TTFMA=${timeMetrics.ttfma_seconds}s, hesitations=${timeMetrics.hesitation_events.length}`, 'PHASE_3');
-            // Extract highlights
+            // Extract highlights — pick the most relevant screenshot for each finding.
+            // POST_LOGIN_KEYWORDS: if evidence mentions dashboard/app state, use after_login screenshot.
+            const postLoginKeywords = /logged in|welcome back|dashboard|tasks|no tasks|loading|survey corps|already logged|sign out|logout|account|redirect/i;
+            const afterLoginScreenshot = visualCaptures.find(c => c.label === 'after_login')?.path || landingScreenshot;
+            const pickScreenshot = (text) => postLoginKeywords.test(text) ? afterLoginScreenshot : landingScreenshot;
             const flaggedAction = session.actions.find(a => !!a.ux_flag && ['critical', 'major', 'high'].includes((a.severity || '').toLowerCase())) || session.actions.find(a => !!a.ux_flag);
             if (flaggedAction) {
                 highlights.push({
                     id: `${persona.id}_friction`, persona_id: persona.id, persona_name: persona.name, type: 'friction',
                     severity: (flaggedAction.severity?.toLowerCase() === 'critical' ? 'critical' : flaggedAction.severity?.toLowerCase() === 'major' || flaggedAction.severity?.toLowerCase() === 'high' ? 'high' : flaggedAction.severity?.toLowerCase() === 'minor' || flaggedAction.severity?.toLowerCase() === 'low' ? 'low' : 'medium'),
-                    title: `Primary friction for ${persona.name}`, evidence: flaggedAction.narration, source: `session_${persona.id}.json`, screenshot: landingScreenshot,
+                    title: `Primary friction for ${persona.name}`, evidence: flaggedAction.narration, source: `session_${persona.id}.json`,
+                    screenshot: pickScreenshot(flaggedAction.narration),
                 });
             }
             if (session.aha_moment?.occurred && session.aha_moment.quote) {
                 highlights.push({
                     id: `${persona.id}_aha`, persona_id: persona.id, persona_name: persona.name, type: 'aha', severity: 'medium',
-                    title: `Aha moment for ${persona.name}`, evidence: session.aha_moment.quote, source: `session_${persona.id}.json`, screenshot: landingScreenshot,
+                    title: `Aha moment for ${persona.name}`, evidence: session.aha_moment.quote, source: `session_${persona.id}.json`,
+                    screenshot: pickScreenshot(session.aha_moment.quote),
                 });
             }
             log(`Conducting interview for ${persona.name}...`, 'PHASE_3');
@@ -304,7 +316,8 @@ export async function handleRunFullUxStudy(args) {
             if (commitmentQuestion?.answer) {
                 highlights.push({
                     id: `${persona.id}_quote`, persona_id: persona.id, persona_name: persona.name, type: 'quote', severity: 'medium',
-                    title: `Commitment blocker quote from ${persona.name}`, evidence: commitmentQuestion.answer, source: `interview_${persona.id}.json`, screenshot: landingScreenshot,
+                    title: `Commitment blocker quote from ${persona.name}`, evidence: commitmentQuestion.answer, source: `interview_${persona.id}.json`,
+                    screenshot: pickScreenshot(commitmentQuestion.answer),
                 });
             }
             log(`Completed interview for ${persona.name}`, 'PHASE_3');

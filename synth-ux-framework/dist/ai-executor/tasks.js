@@ -320,9 +320,11 @@ export async function generateFigmaAnnotations(appName, visualCaptures, highligh
     const screenshotMap = new Map();
     for (const highlight of highlights) {
         // Match highlight to the most relevant screenshot by URL/label
-        const match = visualCaptures.find(c => c.url === highlight.source ||
+        const directMatch = visualCaptures.find(c => c.path === highlight.screenshot ||
+            c.url === highlight.source ||
             c.label.toLowerCase().includes(highlight.source?.split('/').pop()?.toLowerCase() ?? '') ||
-            highlight.source?.toLowerCase().includes(c.label.toLowerCase())) ?? visualCaptures.find(c => c.label === 'landing') ?? visualCaptures[0];
+            highlight.source?.toLowerCase().includes(c.label.toLowerCase()));
+        const match = directMatch ?? visualCaptures.find(c => c.label === 'landing') ?? visualCaptures[0];
         if (!match)
             continue;
         if (!screenshotMap.has(match.path)) {
@@ -337,26 +339,29 @@ export async function generateFigmaAnnotations(appName, visualCaptures, highligh
             // Vision path: send the actual screenshot to the LLM
             const imageBase64 = fs.readFileSync(screenshotPath).toString('base64');
             const findingsList = screenHighlights.map((h, i) => `${i + 1}. ID: "${h.id}" | Type: ${h.type} | Severity: ${h.severity}\n   Title: "${h.title}"\n   Evidence: "${h.evidence}"`).join('\n\n');
-            const visionPrompt = `You are a UX annotation expert examining a real screenshot of "${appName}" — specifically the "${capture.label}" screen (URL: ${capture.url}).
+            const visionPrompt = `You are a pixel-accurate UX annotation tool. You are looking at a real browser screenshot of "${appName}" — the "${capture.label}" screen.
 
-Your job: for each UX finding below, identify the EXACT UI element or screen region being described, and return its bounding box as percentages of the screenshot dimensions.
+Your ONLY job: for each finding, identify the EXACT element visible in this screenshot and output its bounding box in percentage coordinates (0–100, top-left origin).
 
-UX FINDINGS ON THIS SCREEN:
+UX FINDINGS TO LOCATE:
 ${findingsList}
 
-INSTRUCTIONS:
-- Look at the actual screenshot carefully
-- For each finding, pinpoint the specific button, form field, text block, nav item, image, or area the evidence refers to
-- If the evidence describes a missing element (e.g. "no sign-up button visible"), mark the region where it SHOULD be
-- Return x, y as the top-left corner; width and height as the size — all as 0–100 percentages
-- Be precise: a CTA button should be ~5-15% wide, a hero section ~80% wide, a nav bar ~100% wide and ~8% tall
+STRICT RULES:
+- Coordinates must match what is ACTUALLY VISIBLE in the screenshot — do NOT guess
+- x/y = top-left corner of the element, width/height = its size
+- For toast/notification banners: use their actual position (often bottom-center, ~10% tall)
+- For navigation sidebars: x≈0, y≈0, width≈8%, height≈100%
+- For full content areas: use the actual boundaries of the content block
+- For small buttons: width 8–15%, height 4–8%
+- For missing elements: mark the region where users would EXPECT them to be based on standard UI conventions
+- DO NOT cluster all findings at the same coordinates — each must be placed on a different element
 
-Return ONLY a valid JSON array, no explanation:
+Return ONLY a valid JSON array (no markdown, no explanation):
 [
   {
     "id": "FINDING_ID",
-    "rect_pct": { "x": 0, "y": 0, "width": 0, "height": 0 },
-    "element_description": "brief description of the element you identified"
+    "rect_pct": { "x": <number>, "y": <number>, "width": <number>, "height": <number> },
+    "element_description": "exact element name or region"
   }
 ]`;
             try {
@@ -379,7 +384,7 @@ Return ONLY a valid JSON array, no explanation:
                     });
                 }
             }
-            catch {
+            catch (err) {
                 // Vision call failed — fall back to text-only for this screenshot
                 for (const h of screenHighlights) {
                     allAnnotations.push(textOnlyAnnotation(h, screenshotPath));
