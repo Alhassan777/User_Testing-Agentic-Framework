@@ -1,0 +1,63 @@
+{
+  "test_id": "test_1773875893466",
+  "url": "https://dreamduo.netlify.app/",
+  "started_at": "2026-03-18T23:18:13.466Z",
+  "pages_visited": [
+    "https://dreamduo.netlify.app/",
+    "https://dreamduo.netlify.app/"
+  ],
+  "screenshots": [
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875893466/page_1_landing.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875893466/login_filled.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875893466/after_login.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875893466/page_2_after_login.png"
+  ],
+  "heuristic_findings": [
+    {
+      "heuristic": "H5: Error Prevention",
+      "severity": "medium",
+      "issue": "1 form(s) without required field validation",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "Accessibility",
+      "severity": "medium",
+      "issue": "1 clickable element(s) without accessible labels",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/"
+    }
+  ],
+  "errors": [],
+  "lighthouse": {
+    "scores": {
+      "performance": 66,
+      "accessibility": 96,
+      "best-practices": 93,
+      "seo": 75
+    },
+    "core_web_vitals": {
+      "LCP": "31.8 s",
+      "FID": "100 ms",
+      "CLS": "0"
+    }
+  },
+  "accessibility": {
+    "violations": 0,
+    "passes": 2,
+    "top_violations": []
+  },
+  "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875893466/3c1793642d6618dd3e111bd02d738767.webm",
+  "ended_at": "2026-03-18T23:18:27.741Z",
+  "duration_ms": 14275
+}

@@ -1,0 +1,26 @@
+{
+  "internal_validity": 90,
+  "cross_synthetic_reliability": 95,
+  "human_synthetic_correlation_estimate": 75,
+  "confidence_by_finding_type": {
+    "usability_issues": 90,
+    "pmf_signals": 70,
+    "quantitative_metrics": 80,
+    "qualitative_themes": 85
+  },
+  "disclaimers": [
+    "Synthetic users may not capture edge cases real users encounter",
+    "Synthetic users may not fully replicate emotional responses of real users.",
+    "The study focuses on a specific task flow and may not represent the full range of user interactions.",
+    "The lack of visual elements limits assessment to navigational and functional aspects.",
+    "The study assumes that synthetic users are not making mistakes but that they can correctly and rationally identify issues."
+  ],
+  "validation_recommendations": [
+    "Validate top 3 findings with 5 real users",
+    "Conduct A/B testing on the registration flow with real users to optimize for conversion.",
+    "Run a follow-up study with visual stimuli to test UI comprehension and visual appeal.",
+    "Further explore the task loading issue with network diagnostics to identify the root cause and optimize performance",
+    "Review and refine personas to better align with the target user base",
+    "Explore the use of open-ended questions during real user testing to capture nuanced feedback and uncover hidden pain points."
+  ]
+}

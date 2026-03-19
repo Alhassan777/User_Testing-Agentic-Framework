@@ -1,0 +1,159 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "task": "Create an account using email/password and verify your email address.",
+      "category": "Onboarding",
+      "priority": "High",
+      "personas_applicable": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User successfully creates an account, verifies their email, and is redirected to the Mission Dashboard.",
+        "optimal_path_steps": 4,
+        "max_acceptable_steps": 7,
+        "time_expectation_seconds": 120,
+        "error_rate": "Less than 5%"
+      },
+      "potential_friction": [
+        "Confusing registration form fields",
+        "Email verification issues (spam filter, delay)",
+        "Unclear password requirements",
+        "Generic error messages"
+      ],
+      "JTBD_relevance": "Address 'switching anxieties' related to learning curve and data migration by providing a seamless signup experience."
+    },
+    {
+      "task_id": "task_002",
+      "task": "Log in to the application using your newly created email/password account.",
+      "category": "Login",
+      "priority": "High",
+      "personas_applicable": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User successfully logs in and is redirected to the Mission Dashboard.",
+        "optimal_path_steps": 2,
+        "max_acceptable_steps": 4,
+        "time_expectation_seconds": 30,
+        "error_rate": "Less than 3%"
+      },
+      "potential_friction": [
+        "Forgotten password flow",
+        "Login error messages",
+        "Remember me functionality (if implemented)",
+        "Slow loading times"
+      ],
+      "JTBD_relevance": "Validates the 'user authentication and security' must-have."
+    },
+    {
+      "task_id": "task_003",
+      "task": "Attempt to log in with an incorrect email or password.",
+      "category": "Edge Case",
+      "priority": "Medium",
+      "personas_applicable": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User receives a clear and helpful error message indicating the login failure.",
+        "optimal_path_steps": 3,
+        "max_acceptable_steps": 5,
+        "time_expectation_seconds": 20,
+        "error_message_usability_score": "4 out of 5"
+      },
+      "potential_friction": [
+        "Vague or unhelpful error messages",
+        "Account lockout after multiple failed attempts",
+        "Lack of guidance on what to do next (e.g., password reset)"
+      ],
+      "JTBD_relevance": "Validates the 'user authentication and security' must-have and addresses 'switching anxieties' about unreliable performance."
+    },
+    {
+      "task_id": "task_004",
+      "task": "Log in to the application using your Google account.",
+      "category": "Login",
+      "priority": "High",
+      "personas_applicable": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "academic_researcher_emily"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User successfully logs in with Google and is redirected to the Mission Dashboard.",
+        "optimal_path_steps": 4,
+        "max_acceptable_steps": 7,
+        "time_expectation_seconds": 45,
+        "error_rate": "Less than 5%"
+      },
+      "potential_friction": [
+        "Permission requests from Google",
+        "Account linking issues",
+        "Error messages during Google authentication",
+        "Redirection problems"
+      ],
+      "JTBD_relevance": "Validates the 'email/Google/Facebook/Github login' must-have."
+    },
+    {
+      "task_id": "task_005",
+      "task": "Navigate to the Mission Dashboard after logging in and identify the main elements on the page.",
+      "category": "Mission Dashboard",
+      "priority": "High",
+      "personas_applicable": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User successfully navigates to the dashboard and can identify at least 3 key elements (e.g., mission list, profile, navigation) within 30 seconds.",
+        "optimal_path_steps": 1,
+        "max_acceptable_steps": 2,
+        "time_expectation_seconds": 30,
+        "comprehension_score": "3 out of 5"
+      },
+      "potential_friction": [
+        "Unclear navigation",
+        "Overwhelming visual layout",
+        "Lack of clear labeling of elements",
+        "Slow loading times"
+      ],
+      "JTBD_relevance": "Tests the 'progress visualization' must-have and addresses potential 'switching anxieties' about complexity."
+    },
+    {
+      "task_id": "task_006",
+      "task": "Imagine you are a Danchou with team members to manage. Look for any functionality related to managing other users/missions.",
+      "category": "Danchou Role",
+      "priority": "Medium",
+      "personas_applicable": [
+        "project_manager_priya"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User can identify team management features within 2 minutes, even if they are limited. If none are present, the user should be able to confirm the lack of team management features and where they would expect to find them.",
+        "optimal_path_steps": 3,
+        "max_acceptable_steps": 6,
+        "time_expectation_seconds": 120,
+        "confirmation_rate": "80%"
+      },
+      "potential_friction": [
+        "Unclear labeling of team management features.",
+        "Inability to differentiate between personal missions and team missions.",
+        "Confusing user interface for managing team members.",
+        "Lack of feedback or error messages."
+      ],
+      "JTBD_relevance": "Validates the assumption about team-based mission management, a potential 'key differentiator'. Addresses the 'social_job' of appearing competent to the team."
+    }
+  ],
+  "task_flow_recommended": [
+    "task_001",
+    "task_002",
+    "task_005",
+    "task_003",
+    "task_004",
+    "task_006"
+  ]
+}

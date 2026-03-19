@@ -1,0 +1,27 @@
+{
+  "internal_validity": 95,
+  "cross_synthetic_reliability": 90,
+  "human_synthetic_correlation_estimate": 70,
+  "confidence_by_finding_type": {
+    "usability_issues": 90,
+    "pmf_signals": 80,
+    "quantitative_metrics": 75,
+    "qualitative_themes": 85
+  },
+  "disclaimers": [
+    "Synthetic users may not capture edge cases real users encounter",
+    "Synthetic user behavior may be more direct and less exploratory than real users",
+    "The AI may overemphasize certain issues due to the way the prompts were structured",
+    "Emotional responses from synthetic users are simulated and may not perfectly reflect real user sentiment",
+    "Synthetic task completion times may differ from real-world performance due to idealized conditions."
+  ],
+  "validation_recommendations": [
+    "Validate top 3 findings with 5 real users",
+    "Conduct A/B testing on proposed fixes for the broken account creation/login flow.",
+    "Perform a follow-up survey with at least 20 real users after implementing changes to assess user satisfaction and perceived security.",
+    "Analyze website analytics to track user behavior and identify potential usability bottlenecks.",
+    "Compare synthetic and real-user data to refine synthetic personas and improve the accuracy of future simulations.",
+    "Perform think aloud testing with real users",
+    "Check security implementation with a security professional"
+  ]
+}

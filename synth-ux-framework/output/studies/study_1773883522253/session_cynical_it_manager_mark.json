@@ -1,0 +1,57 @@
+{
+  "persona_id": "cynical_it_manager_mark",
+  "actions": [
+    {
+      "timestamp": 0,
+      "action": "view_page",
+      "narration": "Okay, tasks page. Let's see what this thing actually *does*. Already not thrilled about 'DreamDuo'. Sounds like marketing fluff.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 3000,
+      "action": "scan_page",
+      "narration": "Lots of... task management stuff, apparently. Categories, priorities, deadlines. Standard fare. Is it secure?",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 5000,
+      "action": "read_notification",
+      "narration": "\"Welcome back! Successfully logged in to Survey Corps.\" What the...? I didn't log in. Did they just hallucinate my login? Big security red flag right there.",
+      "ux_flag": "security_concern",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 7000,
+      "action": "evaluate_page_content",
+      "narration": "The page says 'Tasks', but that notification thing makes it sound like a game. What is it, work or play? This thing is confused.",
+      "ux_flag": "confusion",
+      "severity": "minor"
+    },
+    {
+      "timestamp": 9000,
+      "action": "look_for_user_management",
+      "narration": "Okay, if I were a Danchou... whatever that is... looking for team management... doesn't seem to be anything obvious here. Just tasks. Where's the user management panel? Is it even here?",
+      "ux_flag": "missing_feature",
+      "severity": "major"
+    },
+    {
+      "timestamp": 12000,
+      "action": "look_for_security_settings",
+      "narration": "I don't see *anything* about security settings, user permissions, access controls... This is a non-starter. I wouldn't let this anywhere near our network.",
+      "ux_flag": "missing_feature",
+      "severity": "critical"
+    }
+  ],
+  "aha_moment": {
+    "occurred": false,
+    "trigger": null,
+    "time_seconds": null,
+    "quote": null
+  },
+  "friction_points": [
+    "Automatic login notification when no login occurred raises significant security concerns.",
+    "Lack of visible user management features for team oversight.",
+    "No obvious security settings or information about data protection."
+  ],
+  "delight_moments": []
+}

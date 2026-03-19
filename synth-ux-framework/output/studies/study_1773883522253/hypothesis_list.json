@@ -1,0 +1,11 @@
+{
+  "hypotheses": [
+    {
+      "id": "hyp_1",
+      "heuristic": "h8",
+      "hypothesis": "Users will have difficulty reading the text due to low color contrast and may abandon the page because of it.",
+      "severity": "high",
+      "testable": true
+    }
+  ]
+}

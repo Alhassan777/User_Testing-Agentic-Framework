@@ -1,0 +1,84 @@
+{
+  "hypotheses": [
+    {
+      "id": "ab_001",
+      "issue_addressed": "issue_001",
+      "hypothesis": "By adding a prominent 'Register' button to the landing page, we expect to increase signup completion rate and reduce user frustration.",
+      "control": "Current: No visible registration button or link on the landing page.",
+      "variant": "Test: Add a clear and prominent 'Register' button to the top right and center of the landing page, linking to /register.",
+      "primary_metric": "Signup completion rate",
+      "expected_lift": "+20-30%",
+      "confidence": 95,
+      "sample_size_estimate": "~2000 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_002",
+      "issue_addressed": "issue_002",
+      "hypothesis": "By ensuring users only see a 'logged in' state *after* successful login/registration, we expect to improve user trust and decrease initial confusion, leading to increased engagement.",
+      "control": "Current: Users are presented with 'Welcome back' or 'Successfully logged in' messages even without logging in or registering.",
+      "variant": "Test: Implement backend checks to ensure 'Welcome back' and 'Successfully logged in' messages are displayed ONLY after successful authentication. If the user has not registered and logged in, show the standard home page state.",
+      "primary_metric": "Time spent on site in the first session",
+      "expected_lift": "+15-20%",
+      "confidence": 90,
+      "sample_size_estimate": "~1500 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_003",
+      "issue_addressed": "issue_003",
+      "hypothesis": "By fixing the task loading issue and implementing a visual loading indicator (e.g., a progress bar), we expect to significantly improve task success rate and reduce user abandonment.",
+      "control": "Current: Tasks fail to load, with no visual feedback.",
+      "variant": "Test: Resolve the underlying issue causing tasks to fail. Implement a clear and responsive progress bar while tasks are loading, displaying a message such as 'Loading Missions...'.",
+      "primary_metric": "Task success rate (percentage of users successfully accessing and viewing missions)",
+      "expected_lift": "+50-70%",
+      "confidence": 99,
+      "sample_size_estimate": "~1000 users per variant",
+      "risk_level": "high"
+    },
+    {
+      "id": "ab_004",
+      "issue_addressed": "issue_004",
+      "hypothesis": "By simplifying the UI and focusing on essential elements, along with better onboarding instructions, we expect to improve usability, reduce overwhelm, and increase user engagement.",
+      "control": "Current: Complex UI with no clear onboarding guidance.",
+      "variant": "Test: Simplify the UI by removing less-used features and re-organizing the primary navigation. Implement a short interactive tutorial that walks new users through the core features upon first login. Focus on key tasks only.",
+      "primary_metric": "Task completion rate (measured across a few tasks)",
+      "expected_lift": "+10-15%",
+      "confidence": 85,
+      "sample_size_estimate": "~2000 users per variant",
+      "risk_level": "medium"
+    },
+    {
+      "id": "ab_005",
+      "issue_addressed": "issue_005",
+      "hypothesis": "By making the 'Mission Dashboard' the default landing page after login, we expect users to be able to access the core functionality of DreamDuo more easily, thereby improving user retention.",
+      "control": "Current: User is taken to a different, unknown, landing page.",
+      "variant": "Test: Upon successful login, redirect users directly to the 'Mission Dashboard'.",
+      "primary_metric": "Retention rate (percentage of users returning after 7 days)",
+      "expected_lift": "+5-10%",
+      "confidence": 80,
+      "sample_size_estimate": "~3000 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_006",
+      "issue_addressed": "issue_006",
+      "hypothesis": "By rebranding the application from 'Survey Corps' to 'DreamDuo' consistently throughout the application and marketing materials, we expect to increase user trust and perceived professionalism, leading to improved conversion and adoption rates.",
+      "control": "Current: Inconsistent branding using 'Survey Corps'.",
+      "variant": "Test: Replace all instances of 'Survey Corps' with 'DreamDuo' including the logo, website copy, and any internal labels.",
+      "primary_metric": "Conversion rate (percentage of users who sign up and actively use the app)",
+      "expected_lift": "+3-5%",
+      "confidence": 75,
+      "sample_size_estimate": "~4000 users per variant",
+      "risk_level": "low"
+    }
+  ],
+  "prioritized_order": [
+    "ab_001",
+    "ab_003",
+    "ab_002",
+    "ab_004",
+    "ab_005",
+    "ab_006"
+  ]
+}

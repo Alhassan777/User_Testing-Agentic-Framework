@@ -1,0 +1,86 @@
+{
+  "generated_at": "2024-02-29T17:00:00Z",
+  "app_name": "DreamDuo",
+  "instructions": [
+    "Import screenshot into Figma",
+    "Draw rectangle using rect_pct",
+    "Attach title and description as sticky note"
+  ],
+  "annotations": [
+    {
+      "id": "ann_1",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png",
+      "title": "Loading Indicator Stuck & No Tasks",
+      "description": "Project Manager Olivia: \"It also has a loading indicator. Hmm.. It is stuck on loading.. I am logged in but there are no tasks here.\"",
+      "severity": "high",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 20,
+        "y": 30,
+        "width": 60,
+        "height": 20
+      },
+      "linked_highlight_id": "project_manager_olivia_friction"
+    },
+    {
+      "id": "ann_2",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png",
+      "title": "Missing Register/Login CTAs",
+      "description": "Freelance Designer David: \"There aren't any clear calls to action.\" Difficulty in registering.",
+      "severity": "high",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 10,
+        "y": 10,
+        "width": 40,
+        "height": 20
+      },
+      "linked_highlight_id": "freelance_designer_david_friction"
+    },
+    {
+      "id": "ann_3",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png",
+      "title": "Confusion about Login State",
+      "description": "Student Sarah: \"I don't see any options to register for an account or even log out. It says 'Welcome back', so maybe I'm already logged in somehow? This is confusing.\"",
+      "severity": "high",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 5,
+        "y": 60,
+        "width": 90,
+        "height": 15
+      },
+      "linked_highlight_id": "student_sarah_friction"
+    },
+    {
+      "id": "ann_4",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png",
+      "title": "Unexpected Login",
+      "description": "Retired Gardener George: \"Maybe I'm already logged in? But I don't remember ever using this thing before…\"",
+      "severity": "high",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 5,
+        "y": 60,
+        "width": 90,
+        "height": 15
+      },
+      "linked_highlight_id": "retired_gardener_george_friction"
+    },
+    {
+      "id": "ann_5",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png",
+      "title": "Unexpected Login/Redirect Issue",
+      "description": "Cynical Software Engineer Chris: \"Register? Nope, already logged in apparently. Guess I'll skip right to the tasks then. Website should've checked that and redirected me to the log out screen.\"",
+      "severity": "low",
+      "color_token": "blue",
+      "rect_pct": {
+        "x": 5,
+        "y": 60,
+        "width": 90,
+        "height": 15
+      },
+      "linked_highlight_id": "cynical_software_engineer_chris_friction"
+    }
+  ]
+}

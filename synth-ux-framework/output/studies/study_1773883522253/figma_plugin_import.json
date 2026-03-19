@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "type": "synth-ux-annotations",
+  "metadata": {
+    "app_name": "DreamDuo",
+    "generated_at": "2024-02-27T20:18:36Z",
+    "total_annotations": 5
+  },
+  "frames": {
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png": [
+      {
+        "id": "ann_1",
+        "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+        "title": "Unexpected Login State",
+        "description": "Users are automatically logged in with a 'Survey Corps' account without creating one, leading to confusion and security concerns.",
+        "severity": "critical",
+        "color_token": "red",
+        "rect_pct": {
+          "x": 5,
+          "y": 10,
+          "width": 40,
+          "height": 8
+        },
+        "linked_highlight_id": "project_manager_priya_friction"
+      },
+      {
+        "id": "ann_2",
+        "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+        "title": "Missing Account Creation Option",
+        "description": "Users cannot find an email/password account creation option after logging out, preventing them from completing the task.",
+        "severity": "high",
+        "color_token": "orange",
+        "rect_pct": {
+          "x": 60,
+          "y": 80,
+          "width": 35,
+          "height": 8
+        },
+        "linked_highlight_id": "freelance_developer_david_friction"
+      },
+      {
+        "id": "ann_3",
+        "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+        "title": "Incorrect Sample Tasks Displayed",
+        "description": "Users are presented with unrelated, seemingly random tasks upon landing on the page, creating confusion and hindering their understanding of the app's purpose.",
+        "severity": "critical",
+        "color_token": "red",
+        "rect_pct": {
+          "x": 5,
+          "y": 25,
+          "width": 90,
+          "height": 50
+        },
+        "linked_highlight_id": "small_business_owner_sarah_friction"
+      },
+      {
+        "id": "ann_4",
+        "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+        "title": "No Clear Account Management",
+        "description": "Users cannot find a way to create an account or logout, forcing them to rely on guesswork and trial-and-error to proceed.",
+        "severity": "high",
+        "color_token": "orange",
+        "rect_pct": {
+          "x": 70,
+          "y": 80,
+          "width": 20,
+          "height": 10
+        },
+        "linked_highlight_id": "academic_researcher_emily_friction"
+      },
+      {
+        "id": "ann_5",
+        "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+        "title": "Security Concerns: Automatic Login",
+        "description": "Automatic and unexplained login raises major security concerns and erodes user trust in the application.",
+        "severity": "critical",
+        "color_token": "red",
+        "rect_pct": {
+          "x": 5,
+          "y": 10,
+          "width": 50,
+          "height": 8
+        },
+        "linked_highlight_id": "cynical_it_manager_mark_friction"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "evaluator": "AI Heuristic Evaluator",
+  "url": "https://dreamduo.netlify.app/",
+  "timestamp": "2024-09-29T15:34:00Z",
+  "heuristics": [
+    {
+      "id": "h1",
+      "name": "Visibility of system status",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h2",
+      "name": "Match between system and real world",
+      "violations": [],
+      "score": 9
+    },
+    {
+      "id": "h3",
+      "name": "User control and freedom",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h4",
+      "name": "Consistency and standards",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h5",
+      "name": "Error prevention",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h6",
+      "name": "Recognition rather than recall",
+      "violations": [],
+      "score": 9
+    },
+    {
+      "id": "h7",
+      "name": "Flexibility and efficiency of use",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h8",
+      "name": "Aesthetic and minimalist design",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h9",
+      "name": "Help users recognize, diagnose, and recover from errors",
+      "violations": [],
+      "score": 6
+    },
+    {
+      "id": "h10",
+      "name": "Help and documentation",
+      "violations": [],
+      "score": 5
+    }
+  ],
+  "wcag_violations": [
+    {
+      "criterion": "1.4.3",
+      "level": "AA",
+      "description": "Insufficient color contrast between the text and background, particularly for the Email and Password fields, and potentially also for the 'Login' button and 'Haven't Joined Us Yet?' text depending on their precise colors.",
+      "impact": "Users with low vision may find it difficult or impossible to read the text and distinguish interactive elements.",
+      "element": "Email field, Password field, Login button, Haven't Joined Us Yet? text",
+      "recommendation": "Adjust the text and/or background colors to meet the minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text, as defined by WCAG 2.1 AA. Use a color contrast checker to verify compliance."
+    }
+  ],
+  "hypothesis_list": [
+    {
+      "id": "hyp_1",
+      "hypothesis": "Users with low vision will struggle to read the labels and input fields due to insufficient color contrast, leading to errors and frustration during the login process.",
+      "heuristic_source": "h8",
+      "testable": true,
+      "severity": "high"
+    }
+  ],
+  "overall_score": 72
+}

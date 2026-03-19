@@ -1,0 +1,51 @@
+{
+  "persona_id": "freelance_designer_david",
+  "actions": [
+    {
+      "timestamp": 0,
+      "action": "view_page",
+      "narration": "Okay, landing on the tasks page. It says 'Welcome back!' and 'Successfully logged in to Survey Corps.' which is...weird, since I haven't logged in yet. That's a bit confusing right off the bat. There's a navigation bar at the top, options for 'Tasks,' 'Calendar View,' 'Dashboard,' 'Tags,' and 'Theme'. Then a bunch of options for viewing tasks: 'List View,' 'Canvas View,' 'Daily,' 'Weekly,' 'Monthly,' 'Yearly.' And then some filters: 'Categories,' 'Priorities,' 'Deadline,' 'Status.' Seems pretty comprehensive, which is good, but also a little overwhelming at first glance.",
+      "ux_flag": "confusion",
+      "severity": "low"
+    },
+    {
+      "timestamp": 3000,
+      "action": "scan_for_login_link",
+      "narration": "Alright, I need to find a login or registration button first. 'Edit Profile' and 'Sign Out' are at the top, which implies I'm already logged in, despite what I think. Since I'm supposed to register first, I'm assuming I'll have to log out first. Let me click 'Sign Out'.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 3500,
+      "action": "click",
+      "element": "Sign Out",
+      "narration": "Clicking 'Sign Out'.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 6500,
+      "action": "find_registration",
+      "narration": "Okay, I'm probably back on the main page now. There should be a way to register here. Since this page URL specified it, I'm guessing I have to poke around myself to find it. This is not a great user experience at all. There aren't any clear calls to action.",
+      "ux_flag": "missing_feature",
+      "severity": "high"
+    },
+    {
+      "timestamp": 12000,
+      "action": "note_missing_registration",
+      "narration": "I've clicked around for a while and I can't find a registration form at all. I'm guessing the task to register is impossible to complete without the feature even existing on the page.",
+      "ux_flag": "critical_error",
+      "severity": "critical"
+    }
+  ],
+  "aha_moment": {
+    "occurred": false,
+    "trigger": null,
+    "time_seconds": null,
+    "quote": null
+  },
+  "friction_points": [
+    "Application claims user is logged in on initial page load when they are not.",
+    "No clear registration or login options presented after 'Sign Out'.",
+    "Missing registration functionality to complete the task list."
+  ],
+  "delight_moments": []
+}

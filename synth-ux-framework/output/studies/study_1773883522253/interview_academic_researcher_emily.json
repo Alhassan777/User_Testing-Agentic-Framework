@@ -1,0 +1,70 @@
+{
+  "persona_id": "academic_researcher_emily",
+  "persona_name": "Emily Carter",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "It seems like a comprehensive task management system, but my initial experience was frustrating because I couldn't perform the basic account creation and login tasks I was asked to do. The interface itself seems well-organized, at least for task management.",
+      "insight": "Lack of clear account management severely impacts initial user experience."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "The most confusing part was the absence of any visible account creation or logout options. Being automatically logged in as 'eelhassan' without any explanation made it impossible to test the login functionality.",
+      "insight": "Missing fundamental features like account creation creates immediate confusion."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "I didn't have any particularly delightful moments, given the initial hurdles. Perhaps the comprehensive nature of the task management features *could* have been delightful, but I didn't get to explore them fully due to the login issues.",
+      "insight": "Positive features are overshadowed by fundamental functionality problems."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "somewhat_disappointed",
+      "insight": "Product has limited user investment due to critical flaws."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "Probably not. Without the ability to create and manage my own account, I can't properly evaluate or use the product effectively. It feels like I'm using someone else's demo account, which isn't ideal for testing or real-world use.",
+      "insight": "Usability is severely hampered by the lack of account management features."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "I wouldn't recommend this to anyone in its current state. I would tell them that the account management is broken, and they won't be able to use it properly.",
+      "insight": "Negative initial experience hinders positive word-of-mouth referrals."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "I wouldn't pay anything for it in its current state. I currently pay $5/month for Todoist. ",
+      "insight": "Broken functionality reduces perceived value to zero."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "Functional account creation and management are essential. I need to be able to create my own account, log in and out, and manage my profile. Without that, it's unusable.",
+      "insight": "Basic functionality is paramount to regular use."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "Account creation/login/logout functionality. It's a pretty standard feature for any online tool, especially one that involves personal task management.",
+      "insight": "Missing expected core features leads to immediate frustration."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "Compared to Todoist (which I use), it's currently much less usable. Todoist has a straightforward account creation process and clear navigation. This feels incomplete and broken by comparison.",
+      "insight": "Comparison with established alternatives highlights critical shortcomings."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No aha moment. Just frustration.",
+      "insight": "Negative initial experience prevents any positive discovery."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "2",
+      "insight": "Low likelihood of recommendation reflects significant usability issues."
+    }
+  ],
+  "sean_ellis_score": "somewhat_disappointed",
+  "would_return": false,
+  "referral_specificity": "no one",
+  "willingness_to_pay": "$0/month"
+}

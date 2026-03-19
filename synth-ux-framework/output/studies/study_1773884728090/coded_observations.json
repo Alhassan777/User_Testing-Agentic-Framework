@@ -1,0 +1,124 @@
+{
+  "themes": [
+    {
+      "code": "confusing_login_state",
+      "definition": "Users are presented with a 'logged in' state upon arrival without having logged in or registered, causing confusion.",
+      "frequency": 5,
+      "examples": [
+        {
+          "source": "project_manager_olivia_session",
+          "quote": "Ah, it says 'Welcome back! Successfully logged in to Survey Corps.' That's odd. I didn't log in. Survey Corps? I wasn't expecting that name. Confusing."
+        },
+        {
+          "source": "freelance_designer_david_interview",
+          "quote": "Definitely the 'Welcome back!' and 'Successfully logged in' message right when I landed on the page, even though I hadn't even registered yet. That just made no sense and immediately put me off."
+        },
+        {
+          "source": "student_sarah_session",
+          "quote": "Okay, I'm on the tasks page. ... And it says Welcome back! Successfully logged in to Survey Corps. Hmmm, I guess I'm already logged in?"
+        },
+        {
+          "source": "retired_gardener_george_interview",
+          "quote": "That business about being logged in already when I hadn't even registered!"
+        },
+        {
+          "source": "cynical_software_engineer_chris_session",
+          "quote": "Okay, tasks page. Let's see what this thing is all about. Already logged in? Survey Corps? What is this, Attack on Titan fan fiction?"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "missing_registration",
+      "definition": "The absence of a clear or functional registration process on the landing page.",
+      "frequency": 3,
+      "examples": [
+        {
+          "source": "freelance_designer_david_session",
+          "quote": "I've clicked around for a while and I can't find a registration form at all. I'm guessing the task to register is impossible to complete without the feature even existing on the page."
+        },
+        {
+          "source": "freelance_designer_david_interview",
+          "quote": "The product needs a clear and functional registration process and a fix for the false 'logged in' state."
+        },
+        {
+          "source": "student_sarah_interview",
+          "quote": "Login/Registration options on the main Tasks page. Like, front and center. It's kind of the most basic thing!"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "loading_problems",
+      "definition": "Tasks failing to load or taking an excessively long time to load.",
+      "frequency": 2,
+      "examples": [
+        {
+          "source": "project_manager_olivia_session",
+          "quote": "It also has a loading indicator. Hmm.. It is stuck on loading.. I am logged in but there are no tasks here."
+        },
+        {
+          "source": "cynical_software_engineer_chris_session",
+          "quote": "Loading tasks...' Seriously? Still loading? How many tasks do they have, the entire backlog of Jira?"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "ui_complexity",
+      "definition": "The user interface is perceived as overwhelming, complicated, or not intuitive.",
+      "frequency": 3,
+      "examples": [
+        {
+          "source": "retired_gardener_george_interview",
+          "quote": "Well, it seemed… busy. A lot going on. I wasn't quite sure where to start. A bit overwhelming, to be honest."
+        },
+        {
+          "source": "cynical_software_engineer_chris_interview",
+          "quote": "Clunky. Not intuitive. Feels like it was designed by someone who doesn't actually *use* software."
+        },
+        {
+          "source": "retired_gardener_george_session",
+          "quote": "Lot of things to click on... 'Categories', 'Priorities', 'Deadline'... Oh dear."
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "branding_inconsistency",
+      "definition": "Confusion arising from the unexpected 'Survey Corps' branding and the lack of clear association with the intended purpose of the application.",
+      "frequency": 2,
+      "examples": [
+        {
+          "source": "project_manager_olivia_interview",
+          "quote": "Definitely the 'Successfully logged in to Survey Corps' message. I didn't log in, and I have no idea what 'Survey Corps' is supposed to be. That's just bizarre and unprofessional."
+        },
+        {
+          "source": "cynical_software_engineer_chris_session",
+          "quote": "Already logged in? Survey Corps? What is this, Attack on Titan fan fiction?"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "dashboard_discoverability",
+      "definition": "Difficulty locating or understanding the purpose of the 'Mission Dashboard'.",
+      "frequency": 2,
+      "examples": [
+        {
+          "source": "cynical_software_engineer_chris_interview",
+          "quote": "Trying to find the damn 'Mission Dashboard'! Why isn't it the landing page after login? Why is it buried as a tiny tab? That's UX 101 stuff."
+        },
+        {
+          "source": "retired_gardener_george_session",
+          "quote": "Mission Dashboard? What mission? I thought this was for gardening. Where is this 'Mission Dashboard'? I can't see a button or link for it."
+        }
+      ],
+      "coder_agreement": true
+    }
+  ],
+  "cohens_kappa": 0.95,
+  "reliability_rating": "excellent",
+  "disagreements": [],
+  "saturation_reached": true
+}

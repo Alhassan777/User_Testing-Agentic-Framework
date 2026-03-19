@@ -1,0 +1,102 @@
+{
+  "study_id": "study_1773883522253",
+  "app_name": "DreamDuo",
+  "url": "https://dreamduo.netlify.app/",
+  "completed_at": "2026-03-19T01:29:11.951Z",
+  "llm_provider": "Gemini",
+  "personas_count": 5,
+  "orchestration": {
+    "phases_completed": [
+      {
+        "from": "init",
+        "to": "pre_testing",
+        "timestamp": "2026-03-19T01:25:22.268Z"
+      },
+      {
+        "from": "pre_testing",
+        "to": "intelligence",
+        "timestamp": "2026-03-19T01:25:38.202Z"
+      },
+      {
+        "from": "intelligence",
+        "to": "derivation",
+        "timestamp": "2026-03-19T01:26:16.448Z"
+      },
+      {
+        "from": "derivation",
+        "to": "execution",
+        "timestamp": "2026-03-19T01:26:28.966Z"
+      },
+      {
+        "from": "execution",
+        "to": "analysis",
+        "timestamp": "2026-03-19T01:27:39.065Z"
+      },
+      {
+        "from": "analysis",
+        "to": "clips",
+        "timestamp": "2026-03-19T01:28:22.011Z"
+      },
+      {
+        "from": "clips",
+        "to": "output",
+        "timestamp": "2026-03-19T01:28:39.664Z"
+      },
+      {
+        "from": "output",
+        "to": "complete",
+        "timestamp": "2026-03-19T01:29:11.951Z"
+      }
+    ],
+    "progress_percentage": 100
+  },
+  "pmf_signal": {
+    "sean_ellis_score": "0% very disappointed",
+    "aha_moment_rate": "0%",
+    "pmf_threshold_met": false,
+    "pmf_probability": 5
+  },
+  "sus_score": 18,
+  "time_metrics_summary": {
+    "avg_ttfma": 7.2,
+    "total_hesitations": 5,
+    "avg_efficiency": 100
+  },
+  "lighthouse": {
+    "scores": {
+      "performance": 65,
+      "accessibility": 96,
+      "best-practices": 93,
+      "seo": 75
+    },
+    "core_web_vitals": {
+      "LCP": "31.8 s",
+      "CLS": "0",
+      "FCP": "3.7 s",
+      "TTI": "31.8 s"
+    }
+  },
+  "accessibility": {
+    "violations": 0,
+    "passes": 2,
+    "top_violations": []
+  },
+  "artifacts": {
+    "hypothesisList": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/hypothesis_list.json",
+    "informationScent": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/information_scent.json",
+    "appBrief": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/app_brief.json",
+    "jtbd": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/jtbd.json",
+    "competitors": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/competitors.json",
+    "personas": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/personas.json",
+    "taskList": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/task_list.json",
+    "designAudit": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/design_audit.json",
+    "problemSeverity": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/problem_severity.json",
+    "codedObservations": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/coded_observations.json",
+    "segments": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/segment_heat_map.json",
+    "analysis": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/analysis.json",
+    "calibration": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/calibration.json",
+    "abHypotheses": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/ab_hypotheses.json",
+    "clips": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/clips.json",
+    "weeklyDigest": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/weekly_digest.json"
+  }
+}

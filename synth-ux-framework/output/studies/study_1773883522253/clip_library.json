@@ -1,0 +1,362 @@
+{
+  "total_clips": 7,
+  "total_duration_minutes": 1,
+  "sessions_analyzed": 5,
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "source_session": "project_manager_priya",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 7,
+      "start_timestamp_ms": 5000,
+      "end_timestamp_ms": 12000,
+      "one_sentence_summary": "Priya expresses confusion upon seeing 'Welcome back' message and searches for a sign-up button.",
+      "transcript_segment": [
+        {
+          "t": "00:05",
+          "text": "Wait a minute. I thought I was supposed to create an account first. But the page says 'Welcome back! Successfully logged in to Survey Corps.' That's weird. Did it automatically log me in with some default account?"
+        },
+        {
+          "t": "00:07",
+          "text": "I don't see a clear 'Sign Up' or 'Create Account' button anywhere. Maybe I have to sign out first? Where is the sign out?"
+        },
+        {
+          "t": "00:10",
+          "text": "Aha, 'Sign Out' at the top. Okay, let's try that."
+        },
+        {
+          "t": "00:12",
+          "text": "Clicking sign out."
+        }
+      ],
+      "tags": [
+        "friction",
+        "onboarding",
+        "confusion",
+        "sign-up",
+        "account creation"
+      ],
+      "persona": {
+        "id": "project_manager_priya",
+        "segment": null,
+        "problem_severity": 4
+      },
+      "clip_type": "friction",
+      "linked_issue": "Missing sign-up option"
+    },
+    {
+      "clip_id": "clip_002",
+      "source_session": "project_manager_priya",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 3,
+      "start_timestamp_ms": 14000,
+      "end_timestamp_ms": 17000,
+      "one_sentence_summary": "Priya is blocked from task 5 and is expressing dissatisfaction upon sign-out.",
+      "transcript_segment": [
+        {
+          "t": "00:14",
+          "text": "(After sign out I would expect to see login / sign up options)"
+        },
+        {
+          "t": "00:15",
+          "text": "Given the state of confusion, I will skip to task 5: Navigate to the Mission Dashboard. I cannot seem to get out of this Tasks area and Dashboard is not accessible"
+        }
+      ],
+      "tags": [
+        "friction",
+        "navigation",
+        "blocked",
+        "sign-out",
+        "dashboard"
+      ],
+      "persona": {
+        "id": "project_manager_priya",
+        "segment": null,
+        "problem_severity": 4
+      },
+      "clip_type": "friction",
+      "linked_issue": "navigation issues"
+    },
+    {
+      "clip_id": "clip_003",
+      "source_session": "freelance_developer_david",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 4,
+      "start_timestamp_ms": 6000,
+      "end_timestamp_ms": 10000,
+      "one_sentence_summary": "David is unable to find a login / signup option and it expresses confusion as to why.",
+      "transcript_segment": [
+        {
+          "t": "00:06",
+          "text": "Okay, now that I've signed out (presumably), I'll look for the email/password creation. Actually, after logging out, I'm not directed to a page where I can create a new account. The task says to create an account using email/password but I can't see any option to do so."
+        },
+        {
+          "t": "00:07",
+          "text": "The task also says to log in with Google account, let's try that, assuming there is an option for google login"
+        }
+      ],
+      "tags": [
+        "friction",
+        "login",
+        "sign-up",
+        "usability",
+        "account creation"
+      ],
+      "persona": {
+        "id": "freelance_developer_david",
+        "segment": null,
+        "problem_severity": 3
+      },
+      "clip_type": "friction",
+      "linked_issue": "Login issues"
+    },
+    {
+      "clip_id": "clip_004",
+      "source_session": "small_business_owner_sarah",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 5,
+      "start_timestamp_ms": 9000,
+      "end_timestamp_ms": 14000,
+      "one_sentence_summary": "Sarah is very confused seeing tasks unrelated to her business.",
+      "transcript_segment": [
+        {
+          "t": "00:10",
+          "text": "Okay, there are already tasks listed. 'Football', 'Book the Field', 'Capstone Meeting', 'Prepare the Presentation', 'Revise the Draft', 'Become a Student Athlete'. These are NOT bakery tasks. This is very confusing! Are these examples?"
+        }
+      ],
+      "tags": [
+        "friction",
+        "confusion",
+        "example tasks",
+        "relevance"
+      ],
+      "persona": {
+        "id": "small_business_owner_sarah",
+        "segment": null,
+        "problem_severity": 3
+      },
+      "clip_type": "friction",
+      "linked_issue": "Irrelevant Example Tasks"
+    },
+    {
+      "clip_id": "clip_005",
+      "source_session": "small_business_owner_sarah",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 3,
+      "start_timestamp_ms": 20000,
+      "end_timestamp_ms": 23000,
+      "one_sentence_summary": "Sarah clicks 'Add New Task', experiences no response, and expresses disappointment.",
+      "transcript_segment": [
+        {
+          "t": "00:20",
+          "text": "Aha! 'Add New Task', that sounds promising. Let's click that."
+        },
+        {
+          "t": "00:20",
+          "text": "(No response from 'Add New Task' click)"
+        },
+        {
+          "t": "00:23",
+          "text": "I'm completely lost."
+        }
+      ],
+      "tags": [
+        "friction",
+        "error",
+        "usability",
+        "button",
+        "add task"
+      ],
+      "persona": {
+        "id": "small_business_owner_sarah",
+        "segment": null,
+        "problem_severity": 3
+      },
+      "clip_type": "friction",
+      "linked_issue": "Add New Task is non functional"
+    },
+    {
+      "clip_id": "clip_006",
+      "source_session": "academic_researcher_emily",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 5,
+      "start_timestamp_ms": 7000,
+      "end_timestamp_ms": 12000,
+      "one_sentence_summary": "Emily abandoned tasks and is frustrated that she cannot create an account or sign out.",
+      "transcript_segment": [
+        {
+          "t": "00:07",
+          "text": "I'm still logged in as this 'eelhassan'. Since I can't find where to create an account or sign out. I'll just assume I can't test that. It's frustrating, since the tasks specifically asked for account creation. I guess they are testing the task functionality and not the account management flow."
+        },
+        {
+          "t": "00:09",
+          "text": "Since I cannot create my own login, there is no way to use Google Login. I'm abandoning the first 4 tasks because they are impossible with this interface."
+        }
+      ],
+      "tags": [
+        "friction",
+        "abandonment",
+        "usability",
+        "login",
+        "sign-up"
+      ],
+      "persona": {
+        "id": "academic_researcher_emily",
+        "segment": null,
+        "problem_severity": 2
+      },
+      "clip_type": "friction",
+      "linked_issue": "No account creation / sign-out"
+    },
+    {
+      "clip_id": "clip_007",
+      "source_session": "cynical_it_manager_mark",
+      "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/videos/21470a48c881a231d1b5ebaaf27d8a65.webm",
+      "duration_seconds": 4,
+      "start_timestamp_ms": 5000,
+      "end_timestamp_ms": 9000,
+      "one_sentence_summary": "Mark expresses serious security concerns upon receiving a 'Welcome back' notification without logging in.",
+      "transcript_segment": [
+        {
+          "t": "00:05",
+          "text": "\"Welcome back! Successfully logged in to Survey Corps.\" What the...? I didn't log in. Did they just hallucinate my login? Big security red flag right there."
+        },
+        {
+          "t": "00:07",
+          "text": "The page says 'Tasks', but that notification thing makes it sound like a game. What is it, work or play? This thing is confused."
+        }
+      ],
+      "tags": [
+        "friction",
+        "security",
+        "concern",
+        "login",
+        "notification"
+      ],
+      "persona": {
+        "id": "cynical_it_manager_mark",
+        "segment": null,
+        "problem_severity": 1
+      },
+      "clip_type": "friction",
+      "linked_issue": "Security Breach"
+    }
+  ],
+  "by_severity": {
+    "high": [
+      "clip_001",
+      "clip_002",
+      "clip_003",
+      "clip_004",
+      "clip_005",
+      "clip_006",
+      "clip_007"
+    ]
+  },
+  "by_feature": {
+    "friction": [
+      "clip_001",
+      "clip_002",
+      "clip_003",
+      "clip_004",
+      "clip_005",
+      "clip_006",
+      "clip_007"
+    ],
+    "onboarding": [
+      "clip_001"
+    ],
+    "confusion": [
+      "clip_001",
+      "clip_004"
+    ],
+    "sign-up": [
+      "clip_001",
+      "clip_003",
+      "clip_006"
+    ],
+    "account creation": [
+      "clip_001",
+      "clip_003"
+    ],
+    "navigation": [
+      "clip_002"
+    ],
+    "blocked": [
+      "clip_002"
+    ],
+    "sign-out": [
+      "clip_002"
+    ],
+    "dashboard": [
+      "clip_002"
+    ],
+    "login": [
+      "clip_003",
+      "clip_006",
+      "clip_007"
+    ],
+    "usability": [
+      "clip_003",
+      "clip_005",
+      "clip_006"
+    ],
+    "example tasks": [
+      "clip_004"
+    ],
+    "relevance": [
+      "clip_004"
+    ],
+    "error": [
+      "clip_005"
+    ],
+    "button": [
+      "clip_005"
+    ],
+    "add task": [
+      "clip_005"
+    ],
+    "abandonment": [
+      "clip_006"
+    ],
+    "security": [
+      "clip_007"
+    ],
+    "concern": [
+      "clip_007"
+    ],
+    "notification": [
+      "clip_007"
+    ]
+  },
+  "by_moment_type": {
+    "friction": [
+      "clip_001",
+      "clip_002",
+      "clip_003",
+      "clip_004",
+      "clip_005",
+      "clip_006",
+      "clip_007"
+    ]
+  },
+  "by_persona": {
+    "project_manager_priya": [
+      "clip_001",
+      "clip_002"
+    ],
+    "freelance_developer_david": [
+      "clip_003"
+    ],
+    "small_business_owner_sarah": [
+      "clip_004",
+      "clip_005"
+    ],
+    "academic_researcher_emily": [
+      "clip_006"
+    ],
+    "cynical_it_manager_mark": [
+      "clip_007"
+    ]
+  }
+}

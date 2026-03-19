@@ -1,0 +1,61 @@
+{
+  "personas": [
+    {
+      "persona_id": "project_manager_priya",
+      "severity_level": 4,
+      "evidence": "Actively uses Asana and pays $50/month/user, clearly needs a project management solution. The initial experience was extremely confusing and frustrating, blocking her from even evaluating the core functionality, making the current solution completely unviable. She also would NOT recommend the product to others and has a willingness to pay of $0 due to usability issues.",
+      "current_workarounds": [
+        "Asana"
+      ],
+      "pain_intensity": 9,
+      "willingness_to_pay_signal": "$50/month for Asana"
+    },
+    {
+      "persona_id": "freelance_developer_david",
+      "severity_level": 4,
+      "evidence": "Pays $15/month for Trello and could not even create an account or log in to evaluate the product. There's a very clear pain point of managing multiple client projects and the friction of the broken onboarding prevented further engagement. He would also NOT recommend the product and has a willingness to pay of $0 due to usability issues.",
+      "current_workarounds": [
+        "Trello"
+      ],
+      "pain_intensity": 8,
+      "willingness_to_pay_signal": "$15/month for Trello"
+    },
+    {
+      "persona_id": "small_business_owner_sarah",
+      "severity_level": 3,
+      "evidence": "Relies on a paper planner, indicating a desire for organization. The frustration with the irrelevant content and non-functional 'Add New Task' button suggests a painful experience. She is aware of the need for a better solution, but the current product is not it. ",
+      "current_workarounds": [
+        "Paper planner"
+      ],
+      "pain_intensity": 7,
+      "willingness_to_pay_signal": "Would not pay, currently uses paper planner ($10/year)."
+    },
+    {
+      "persona_id": "academic_researcher_emily",
+      "severity_level": 2,
+      "evidence": "Emily already uses Todoist to handle project tracking. She is somewhat disappointed with the product but doesn't display the kind of urgency someone with Level 3 or 4 pain would. She acknowledges comprehensive functionality is overshadowed by broken foundational functionality.",
+      "current_workarounds": [
+        "Todoist"
+      ],
+      "pain_intensity": 5,
+      "willingness_to_pay_signal": "$5/month for Todoist"
+    },
+    {
+      "persona_id": "cynical_it_manager_mark",
+      "severity_level": 1,
+      "evidence": "Mark's cynicism and focus on security suggest a latent problem. He's resistant to change and unlikely to adopt a new tool unless it offers a significant advantage with minimal risk. His primary motivation is maintaining stability and security, not necessarily improving task management efficiency.",
+      "current_workarounds": [
+        "Jira and Asana"
+      ],
+      "pain_intensity": 3,
+      "willingness_to_pay_signal": "Uses Asana and Jira and has no use for the product"
+    }
+  ],
+  "distribution": {
+    "level_4_hair_on_fire": 0.4,
+    "level_3_painful": 0.2,
+    "level_2_aware": 0.2,
+    "level_1_latent": 0.2
+  },
+  "pmf_readiness": "Need to find hair-on-fire segment"
+}

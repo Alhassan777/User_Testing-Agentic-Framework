@@ -1,0 +1,66 @@
+{
+  "persona_id": "small_business_owner_sarah",
+  "actions": [
+    {
+      "timestamp": 0,
+      "action": "view_page",
+      "narration": "Okay, let's see. This is supposed to help me with tasks. Oh, it looks like I'm already logged in? It says 'Welcome back!' I don't remember creating an account though… Successfully logged in to Survey Corps. What's Survey Corps?",
+      "ux_flag": "confusion",
+      "severity": "low"
+    },
+    {
+      "timestamp": 5000,
+      "action": "scan_page",
+      "narration": "Right, tasks. I see a 'Tasks' heading. And then 'Calendar View', 'Dashboard', 'Tags', 'Theme'... I guess this is where I manage things. 'Add Category', 'List View', 'Canvas View'...",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 10000,
+      "action": "scan_tasks",
+      "narration": "Okay, there are already tasks listed. 'Football', 'Book the Field', 'Capstone Meeting', 'Prepare the Presentation', 'Revise the Draft', 'Become a Student Athlete'. These are NOT bakery tasks. This is very confusing! Are these examples?",
+      "ux_flag": "high",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 15000,
+      "action": "scan_filters",
+      "narration": "Filters... 'Categories', 'Sports', 'Academics', 'Priorities', 'Low', 'Urgent', 'Deadline', 'Status'... I need to figure out how to get rid of these example tasks and add my own.",
+      "ux_flag": "medium",
+      "severity": "medium"
+    },
+    {
+      "timestamp": 20000,
+      "action": "click",
+      "element": "Add New Task",
+      "narration": "Aha! 'Add New Task', that sounds promising. Let's click that.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 20500,
+      "action": "nothing",
+      "narration": "(No response from 'Add New Task' click)",
+      "ux_flag": "high",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 23000,
+      "action": "click",
+      "element": "Sign Out",
+      "narration": "I'm completely lost. I don't even know where I logged in from. Maybe I should sign out and try again from scratch. 'Sign Out'",
+      "ux_flag": null
+    }
+  ],
+  "aha_moment": {
+    "occurred": false,
+    "trigger": null,
+    "time_seconds": null,
+    "quote": null
+  },
+  "friction_points": [
+    "Automatically logged in without creating an account.",
+    "Confusing example tasks unrelated to bakery business.",
+    "Unable to delete or modify existing tasks.",
+    "Non-responsive 'Add New Task' button."
+  ],
+  "delight_moments": []
+}

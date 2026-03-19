@@ -1,0 +1,87 @@
+[
+  {
+    "id": "project_manager_priya",
+    "name": "Priya Sharma",
+    "age": 32,
+    "role/job": "Project Manager at a Marketing Agency",
+    "technical_literacy": "medium",
+    "patience_level": "medium",
+    "goals": [
+      "Efficiently track project progress, monitor team member contributions, and ensure projects stay on schedule and within budget."
+    ],
+    "frustrations": [
+      "Spreadsheets are cumbersome and difficult to share; difficulty visualizing project progress at a glance; miscommunication and lack of accountability within the team."
+    ],
+    "context": "Priya manages multiple marketing campaigns simultaneously for various clients. She needs a tool to organize tasks, track progress, and facilitate team collaboration.",
+    "problem_severity": 4,
+    "role": "Project Manager at a Marketing Agency"
+  },
+  {
+    "id": "freelance_developer_david",
+    "name": "David Lee",
+    "age": 28,
+    "role/job": "Freelance Web Developer",
+    "technical_literacy": "high",
+    "patience_level": "high",
+    "goals": [
+      "Easily manage multiple client projects, track billable hours, and collaborate with designers and other freelancers."
+    ],
+    "frustrations": [
+      "Juggling different project management tools for each client; difficulty tracking time accurately; invoices and payment tracking is manual and time-consuming."
+    ],
+    "context": "David works on a variety of web development projects ranging from small business websites to e-commerce platforms. He values flexibility and efficiency.",
+    "problem_severity": 3,
+    "role": "Freelance Web Developer"
+  },
+  {
+    "id": "small_business_owner_sarah",
+    "name": "Sarah Chen",
+    "age": 45,
+    "role/job": "Owner of a Small Bakery",
+    "technical_literacy": "low",
+    "patience_level": "medium",
+    "goals": [
+      "Organize and track employee tasks, manage inventory, and communicate effectively with her small team."
+    ],
+    "frustrations": [
+      "Relies heavily on paper-based systems; struggles to delegate tasks efficiently; inventory management is time-consuming and prone to errors."
+    ],
+    "context": "Sarah is a busy small business owner who is not very tech-savvy but recognizes the need for better organization to improve her business.",
+    "problem_severity": 3,
+    "role": "Owner of a Small Bakery"
+  },
+  {
+    "id": "academic_researcher_emily",
+    "name": "Emily Carter",
+    "age": 35,
+    "role/job": "Academic Researcher",
+    "technical_literacy": "high",
+    "patience_level": "high",
+    "goals": [
+      "Collaborate with colleagues on research projects, share documents and data, and manage deadlines for grant proposals and publications."
+    ],
+    "frustrations": [
+      "Uses primarily university-provided tools, which can be clunky and not always user-friendly; version control issues when collaborating on documents; lacks integrated task management within existing systems."
+    ],
+    "context": "Emily works on long-term research projects with multiple collaborators. She primarily uses institutional resources but is open to exploring more efficient tools.",
+    "problem_severity": 2,
+    "role": "Academic Researcher"
+  },
+  {
+    "id": "cynical_it_manager_mark",
+    "name": "Mark Johnson",
+    "age": 50,
+    "role/job": "IT Manager at a Medium-Sized Company",
+    "technical_literacy": "high",
+    "patience_level": "low",
+    "goals": [
+      "Maintain the stability and security of existing IT systems, minimize downtime, and avoid introducing new vulnerabilities."
+    ],
+    "frustrations": [
+      "Constantly bombarded with requests for new software; skeptical of cloud-based solutions; prioritizes security and reliability above all else; little patience for bugs or complex interfaces."
+    ],
+    "context": "Mark is responsible for managing a complex IT infrastructure and is resistant to change unless he sees a clear and significant benefit with minimal risk.",
+    "problem_severity": 1,
+    "role": "IT Manager at a Medium-Sized Company"
+  }
+]

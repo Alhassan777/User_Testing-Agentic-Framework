@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "page": "Homepage",
+      "url": "https://dreamduo.netlify.app/",
+      "tasks": [
+        {
+          "goal": "Create an account / Sign up",
+          "expected_target": "Please Register",
+          "first_click_predictions": [
+            {
+              "element": "Please Register",
+              "probability": 0.85,
+              "reasoning": "Explicit instruction for new users to create an account."
+            },
+            {
+              "element": "Login",
+              "probability": 0.1,
+              "reasoning": "Users may mistakenly click 'Login' thinking it's a generic entry point, especially if the visual distinction between login and register is weak."
+            },
+            {
+              "element": "Google/Facebook/GitHub Login",
+              "probability": 0.05,
+              "reasoning": "Some users prefer social login immediately."
+            }
+          ],
+          "correct_rate": 0.85,
+          "avg_hesitation_ms": 1500,
+          "information_scent": "Strong"
+        },
+        {
+          "goal": "Find pricing information",
+          "expected_target": "No pricing information on the page",
+          "first_click_predictions": [
+            {
+              "element": "Login",
+              "probability": 0.3,
+              "reasoning": "Users may assume pricing is behind a login wall, especially for SaaS products."
+            },
+            {
+              "element": "Email",
+              "probability": 0.25,
+              "reasoning": "Users might try to contact to ask pricing."
+            },
+            {
+              "element": "Login with Google/Facebook/GitHub",
+              "probability": 0.2,
+              "reasoning": "A general attempt to see options after not finding what looking for."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 5000,
+          "information_scent": "Very Weak"
+        },
+        {
+          "goal": "Learn what the product does",
+          "expected_target": "No information on the page",
+          "first_click_predictions": [
+            {
+              "element": "Login",
+              "probability": 0.3,
+              "reasoning": "Users might assume more information is available after logging in."
+            },
+            {
+              "element": "Or login with...",
+              "probability": 0.2,
+              "reasoning": "After seeing no product information, they look for alternatives."
+            },
+            {
+              "element": "Email",
+              "probability": 0.15,
+              "reasoning": "Attempt to contact to ask what product does."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 5000,
+          "information_scent": "Very Weak"
+        },
+        {
+          "goal": "Contact support or get help",
+          "expected_target": "No explicit support/help link",
+          "first_click_predictions": [
+            {
+              "element": "Email",
+              "probability": 0.6,
+              "reasoning": "Email address is visible, often used as a fallback for contact."
+            },
+            {
+              "element": "Login",
+              "probability": 0.2,
+              "reasoning": "Users might think support information is available after logging in."
+            },
+            {
+              "element": "Or login with...",
+              "probability": 0.1,
+              "reasoning": "After seeing no contact support, they look for alternatives."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 4000,
+          "information_scent": "Weak"
+        }
+      ]
+    }
+  ],
+  "information_scent_score": 20,
+  "navigation_clarity_score": 30
+}

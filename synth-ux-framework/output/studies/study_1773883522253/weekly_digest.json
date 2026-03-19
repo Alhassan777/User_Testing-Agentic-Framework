@@ -1,0 +1,33 @@
+{
+  "week": "2026-03-W3",
+  "generated_at": "2024-01-27T19:22:42Z",
+  "the_win": {
+    "clip_id": null,
+    "summary": "No positive user experience was observed in this round of testing.",
+    "duration_seconds": 0,
+    "why_it_matters": "Highlights the urgent need to address critical usability issues before users can experience any value."
+  },
+  "the_pain": {
+    "clip_id": "clip_007",
+    "summary": "Mark expresses serious security concerns upon receiving a 'Welcome back' notification without logging in, indicating a major breach of trust.",
+    "duration_seconds": 4,
+    "why_it_matters": "Security concerns are paramount. A perceived breach of security will immediately drive users away and severely damage the product's reputation."
+  },
+  "the_surprise": {
+    "clip_id": "clip_004",
+    "summary": "Sarah is very confused seeing tasks unrelated to her business, indicating a potential misconfiguration or significant flaw in onboarding.",
+    "duration_seconds": 5,
+    "contradicts_assumption": "We assumed users would see a neutral or relevant starting state, but users are confronted with seemingly random tasks upon login."
+  },
+  "metrics_snapshot": {
+    "disappointment_score": 90,
+    "disappointment_trend": "↑",
+    "aha_moment_rate": 0,
+    "top_friction_point": "Broken Account Creation/Login"
+  },
+  "one_thing_to_fix": {
+    "issue": "Implement a functional account creation and login system to address the Broken Account Creation/Login issue.",
+    "expected_impact": "Resolving the authentication issues will allow users to properly access and test the application's features, leading to a significant improvement in user experience and a reduction in the disappointment score.",
+    "linked_clip": "clip_001"
+  }
+}

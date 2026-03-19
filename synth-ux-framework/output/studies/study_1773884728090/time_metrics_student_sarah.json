@@ -1,0 +1,41 @@
+{
+  "ttfma_seconds": 20,
+  "hesitation_events": [
+    {
+      "timestamp_ms": 0,
+      "duration_ms": 10000,
+      "context": "Okay, I'm on the tasks page. I see a bunch of stuff... Edit Profile, Sign Out, Tasks, Calendar View, Dashboard, Tags, Theme. Then some icons... Lists, Canvas. Daily, Weekly, Monthly views. Looks like ways to filter. Okay, and the date is March 18, 2026. And it says Welcome back! Successfully logged in to Survey Corps. Hmmm, I guess I'm already logged in?"
+    },
+    {
+      "timestamp_ms": 10000,
+      "duration_ms": 5000,
+      "context": "Alright, let's see... I see 'Tasks' is highlighted, so I'm on the tasks page. Below that are ways to add a category and switch between list and canvas views. Looks like I can filter by category, priority, and deadline. I also see a 'Status' filter for all tasks, completed, or incomplete. Loading tasks...so, it's fetching my tasks, I guess."
+    },
+    {
+      "timestamp_ms": 15000,
+      "duration_ms": 5000,
+      "context": "Wait a minute...I don't see any options to register for an account or even log out. It says 'Welcome back', so maybe I'm already logged in somehow? This is confusing. Where would I register or log in?"
+    },
+    {
+      "timestamp_ms": 20000,
+      "duration_ms": 5000,
+      "context": "Maybe I can find a logout button in the Edit Profile. Let's try clicking on that."
+    },
+    {
+      "timestamp_ms": 28000,
+      "duration_ms": 7000,
+      "context": "Okay, I'm clicking sign out and hoping it takes me to a sign-in/sign-up page."
+    }
+  ],
+  "backtrack_events": [
+    {
+      "timestamp_ms": 28000,
+      "from_url": "Sign Out",
+      "to_url": "Sign Out"
+    }
+  ],
+  "total_time_seconds": 35,
+  "steps_count": 7,
+  "optimal_steps": 22,
+  "efficiency_score": 100
+}

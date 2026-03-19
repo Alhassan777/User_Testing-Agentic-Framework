@@ -1,0 +1,87 @@
+[
+  {
+    "id": "project_manager_olivia",
+    "name": "Olivia Chen",
+    "age": 32,
+    "role/job": "Project Manager, Marketing Agency",
+    "technical_literacy": "high",
+    "patience_level": "medium",
+    "goals": [
+      "Efficiently manage marketing campaigns, keep teams aligned, and meet deadlines consistently."
+    ],
+    "frustrations": [
+      "Spreadsheets, missed deadlines, lack of visibility across team tasks, and confusing email threads."
+    ],
+    "context": "Olivia manages multiple marketing projects simultaneously, working with internal designers, copywriters, and external clients. She needs a central hub to track progress and ensure everyone is on the same page.",
+    "problem_severity": 4,
+    "role": "Project Manager, Marketing Agency"
+  },
+  {
+    "id": "freelance_designer_david",
+    "name": "David Lee",
+    "age": 28,
+    "role/job": "Freelance Web Designer",
+    "technical_literacy": "high",
+    "patience_level": "medium",
+    "goals": [
+      "Stay organized with client projects, track billable hours, and collaborate effectively with clients."
+    ],
+    "frustrations": [
+      "Juggling multiple tools, difficulty tracking time accurately, and communication breakdowns with clients leading to scope creep."
+    ],
+    "context": "David juggles 3-5 clients at any given time, working remotely. He needs a task management system that's flexible, easy to use, and helps him manage his time effectively.",
+    "problem_severity": 3,
+    "role": "Freelance Web Designer"
+  },
+  {
+    "id": "student_sarah",
+    "name": "Sarah Johnson",
+    "age": 20,
+    "role/job": "University Student",
+    "technical_literacy": "medium",
+    "patience_level": "high",
+    "goals": [
+      "Organize coursework, manage extracurricular activities, and collaborate with group members on assignments."
+    ],
+    "frustrations": [
+      "Feeling overwhelmed by the volume of assignments, difficulty coordinating group projects, and losing track of deadlines."
+    ],
+    "context": "Sarah is a full-time student taking a heavy course load. She needs a tool to help her prioritize tasks, manage deadlines, and communicate with classmates.",
+    "problem_severity": 3,
+    "role": "University Student"
+  },
+  {
+    "id": "retired_gardener_george",
+    "name": "George Miller",
+    "age": 70,
+    "role/job": "Retired Gardener",
+    "technical_literacy": "low",
+    "patience_level": "high",
+    "goals": [
+      "Keep track of gardening tasks, manage household chores, and share tasks with his wife."
+    ],
+    "frustrations": [
+      "Complexity of technology, difficulty remembering passwords, and resistance to learning new digital tools."
+    ],
+    "context": "George is retired and enjoys gardening and maintaining his home. He's looking for a simple way to organize his activities but isn't comfortable with complicated software.",
+    "problem_severity": 1,
+    "role": "Retired Gardener"
+  },
+  {
+    "id": "cynical_software_engineer_chris",
+    "name": "Chris Evans",
+    "age": 35,
+    "role/job": "Senior Software Engineer",
+    "technical_literacy": "high",
+    "patience_level": "low",
+    "goals": [
+      "Quickly evaluate the application's features, identify potential bugs, and determine if it's superior to existing solutions."
+    ],
+    "frustrations": [
+      "Inefficient workflows, unnecessary features, poor user interface design, and marketing hype that doesn't match reality."
+    ],
+    "context": "Chris is a highly skilled software engineer who is skeptical of new tools. He's quick to identify flaws and demands a high level of performance and usability.",
+    "problem_severity": 2,
+    "role": "Senior Software Engineer"
+  }
+]

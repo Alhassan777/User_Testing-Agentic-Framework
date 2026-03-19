@@ -1,0 +1,59 @@
+{
+  "persona_id": "cynical_software_engineer_chris",
+  "actions": [
+    {
+      "timestamp": 0,
+      "action": "view_page",
+      "narration": "Okay, tasks page. Let's see what this thing is all about. Already logged in? Survey Corps? What is this, Attack on Titan fan fiction?",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 2000,
+      "action": "attempt_task_1_register",
+      "narration": "Register? Nope, already logged in apparently. Guess I'll skip right to the tasks then. Website should've checked that and redirected me to the log out screen.",
+      "ux_flag": "annoyance",
+      "severity": "minor"
+    },
+    {
+      "timestamp": 3000,
+      "action": "attempt_task_6_dashboard",
+      "narration": "Mission Dashboard? Where is this mythical dashboard? I don't see anything labeled 'Mission Dashboard'.",
+      "ux_flag": "confusion",
+      "severity": "medium"
+    },
+    {
+      "timestamp": 5000,
+      "action": "scan_elements",
+      "element": "Calendar View",
+      "narration": "Calendar View, Dashboard... wait, 'Dashboard'? That's a tab up top? Why isn't it more prominent? Should be the default view after login, not buried. UI fail number one.",
+      "ux_flag": "confusion",
+      "severity": "medium"
+    },
+    {
+      "timestamp": 7000,
+      "action": "click",
+      "element": "Dashboard",
+      "narration": "Clicking this 'Dashboard' link...finally.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 9000,
+      "action": "assess_dashboard_elements",
+      "narration": "Okay, *now* I see some tasks. Filters, Categories, Priorities, Deadline, Status... standard fare. 'Loading tasks...' Seriously? Still loading? How many tasks do they have, the entire backlog of Jira?",
+      "ux_flag": "frustration",
+      "severity": "minor"
+    }
+  ],
+  "aha_moment": {
+    "occurred": false,
+    "trigger": null,
+    "time_seconds": 0,
+    "quote": null
+  },
+  "friction_points": [
+    "No clear 'Mission Dashboard' link or immediately obvious entry point.",
+    "Tasks page shows logged in state but tasks require another click.",
+    "'Loading tasks...' takes too long."
+  ],
+  "delight_moments": []
+}

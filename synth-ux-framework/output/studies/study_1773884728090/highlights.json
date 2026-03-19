@@ -1,0 +1,57 @@
+[
+  {
+    "id": "project_manager_olivia_friction",
+    "persona_id": "project_manager_olivia",
+    "persona_name": "Olivia Chen",
+    "type": "friction",
+    "severity": "high",
+    "title": "Primary friction for Olivia Chen",
+    "evidence": "It also has a loading indicator. Hmm.. It is stuck on loading.. I am logged in but there are no tasks here.",
+    "source": "session_project_manager_olivia.json",
+    "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png"
+  },
+  {
+    "id": "freelance_designer_david_friction",
+    "persona_id": "freelance_designer_david",
+    "persona_name": "David Lee",
+    "type": "friction",
+    "severity": "high",
+    "title": "Primary friction for David Lee",
+    "evidence": "Okay, I'm probably back on the main page now. There should be a way to register here. Since this page URL specified it, I'm guessing I have to poke around myself to find it. This is not a great user experience at all. There aren't any clear calls to action.",
+    "source": "session_freelance_designer_david.json",
+    "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png"
+  },
+  {
+    "id": "student_sarah_friction",
+    "persona_id": "student_sarah",
+    "persona_name": "Sarah Johnson",
+    "type": "friction",
+    "severity": "high",
+    "title": "Primary friction for Sarah Johnson",
+    "evidence": "Wait a minute...I don't see any options to register for an account or even log out. It says 'Welcome back', so maybe I'm already logged in somehow? This is confusing. Where would I register or log in?",
+    "source": "session_student_sarah.json",
+    "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png"
+  },
+  {
+    "id": "retired_gardener_george_friction",
+    "persona_id": "retired_gardener_george",
+    "persona_name": "George Miller",
+    "type": "friction",
+    "severity": "high",
+    "title": "Primary friction for George Miller",
+    "evidence": "Right, register... where's the register button? I don't see one. Maybe it's somewhere else? I'm already on the Tasks page though. Oh, it says 'Welcome back! Successfully logged in to Survey Corps.' at the bottom. Maybe I'm already logged in? But I don't remember ever using this thing before…",
+    "source": "session_retired_gardener_george.json",
+    "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png"
+  },
+  {
+    "id": "cynical_software_engineer_chris_friction",
+    "persona_id": "cynical_software_engineer_chris",
+    "persona_name": "Chris Evans",
+    "type": "friction",
+    "severity": "low",
+    "title": "Primary friction for Chris Evans",
+    "evidence": "Register? Nope, already logged in apparently. Guess I'll skip right to the tasks then. Website should've checked that and redirected me to the log out screen.",
+    "source": "session_cynical_software_engineer_chris.json",
+    "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/screenshots/landing.png"
+  }
+]

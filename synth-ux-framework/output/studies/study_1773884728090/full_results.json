@@ -1,0 +1,100 @@
+{
+  "study_id": "study_1773884728090",
+  "app_name": "DreamDuo",
+  "url": "https://dreamduo.netlify.app/",
+  "completed_at": "2026-03-19T01:49:31.435Z",
+  "llm_provider": "Gemini",
+  "personas_count": 5,
+  "orchestration": {
+    "phases_completed": [
+      {
+        "from": "init",
+        "to": "pre_testing",
+        "timestamp": "2026-03-19T01:45:28.107Z"
+      },
+      {
+        "from": "pre_testing",
+        "to": "intelligence",
+        "timestamp": "2026-03-19T01:45:44.953Z"
+      },
+      {
+        "from": "intelligence",
+        "to": "derivation",
+        "timestamp": "2026-03-19T01:46:17.756Z"
+      },
+      {
+        "from": "derivation",
+        "to": "execution",
+        "timestamp": "2026-03-19T01:46:34.968Z"
+      },
+      {
+        "from": "execution",
+        "to": "analysis",
+        "timestamp": "2026-03-19T01:47:51.785Z"
+      },
+      {
+        "from": "analysis",
+        "to": "clips",
+        "timestamp": "2026-03-19T01:48:33.165Z"
+      },
+      {
+        "from": "clips",
+        "to": "output",
+        "timestamp": "2026-03-19T01:49:03.279Z"
+      },
+      {
+        "from": "output",
+        "to": "complete",
+        "timestamp": "2026-03-19T01:49:31.428Z"
+      }
+    ],
+    "progress_percentage": 100
+  },
+  "pmf_signal": {
+    "sean_ellis_score": "0% very disappointed",
+    "aha_moment_rate": "0%",
+    "pmf_threshold_met": false,
+    "pmf_probability": 5
+  },
+  "sus_score": 25,
+  "time_metrics_summary": {
+    "avg_ttfma": 6.1,
+    "total_hesitations": 11,
+    "avg_efficiency": 100
+  },
+  "lighthouse": {
+    "scores": {
+      "performance": 64,
+      "accessibility": 96,
+      "best-practices": 93,
+      "seo": 75
+    },
+    "core_web_vitals": {
+      "LCP": "32.0 s",
+      "CLS": "0",
+      "FCP": "3.7 s",
+      "TTI": "32.1 s"
+    }
+  },
+  "accessibility": {
+    "violations": 0,
+    "passes": 2,
+    "top_violations": []
+  },
+  "artifacts": {
+    "hypothesisList": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/hypothesis_list.json",
+    "informationScent": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/information_scent.json",
+    "appBrief": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/app_brief.json",
+    "jtbd": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/jtbd.json",
+    "competitors": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/competitors.json",
+    "personas": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/personas.json",
+    "taskList": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/task_list.json",
+    "designAudit": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/design_audit.json",
+    "problemSeverity": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/problem_severity.json",
+    "codedObservations": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/coded_observations.json",
+    "segments": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/segment_heat_map.json",
+    "analysis": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/analysis.json",
+    "calibration": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/calibration.json",
+    "abHypotheses": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773884728090/ab_hypotheses.json"
+  }
+}

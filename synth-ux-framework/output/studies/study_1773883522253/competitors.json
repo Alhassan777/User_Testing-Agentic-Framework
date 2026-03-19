@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "positioning": "A visual collaboration tool that empowers teams to manage projects, workflows, and tasks in a flexible and intuitive way.",
+    "strengths": [
+      "Highly visual and intuitive Kanban-style boards",
+      "Strong collaboration features",
+      "Integrations with many other tools"
+    ],
+    "weaknesses": [
+      "Can become unwieldy for extremely complex projects",
+      "Reporting features are limited in the free tier",
+      "Email/password is a primary login method for many users, which is a slight negative compared to social login."
+    ],
+    "pricing_model": "freemium",
+    "confidence": "high"
+  },
+  {
+    "name": "Asana",
+    "url": "https://asana.com",
+    "positioning": "A work management platform designed to help teams organize, track, and manage their work effectively.",
+    "strengths": [
+      "Robust task management features",
+      "Strong reporting and analytics",
+      "Good for structured project management"
+    ],
+    "weaknesses": [
+      "Can be overwhelming for simple projects",
+      "Steeper learning curve than Trello",
+      "Free tier is limiting for larger teams"
+    ],
+    "pricing_model": "freemium",
+    "confidence": "high"
+  },
+  {
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira",
+    "positioning": "Project management software for agile teams, providing bug tracking, issue resolution, and project planning capabilities.",
+    "strengths": [
+      "Excellent for software development teams using Agile methodologies",
+      "Highly customizable",
+      "Strong bug tracking and issue management features"
+    ],
+    "weaknesses": [
+      "Complex setup and configuration",
+      "Can be overkill for non-technical projects",
+      "Significant learning curve"
+    ],
+    "pricing_model": "subscription",
+    "confidence": "medium"
+  },
+  {
+    "name": "Google Tasks",
+    "url": "https://tasks.google.com/",
+    "positioning": "A simple and integrated task management tool within the Google ecosystem, allowing users to create and track tasks across devices.",
+    "strengths": [
+      "Simple and easy to use",
+      "Seamless integration with Google Calendar and other Google apps",
+      "Free for Google account holders"
+    ],
+    "weaknesses": [
+      "Limited features compared to dedicated project management tools",
+      "Not ideal for complex project management",
+      "Lacks advanced collaboration features"
+    ],
+    "pricing_model": "free",
+    "confidence": "medium"
+  },
+  {
+    "name": "Microsoft To Do",
+    "url": "https://todo.microsoft.com/tasks/",
+    "positioning": "A simple and intelligent to-do list app that makes it easy to plan your day and manage your tasks.",
+    "strengths": [
+      "Simple and intuitive interface",
+      "Cross-platform availability",
+      "Integration with Microsoft 365 ecosystem"
+    ],
+    "weaknesses": [
+      "Lacks advanced project management features",
+      "Limited collaboration capabilities compared to dedicated project management tools",
+      "Best suited for personal or small team task management"
+    ],
+    "pricing_model": "free",
+    "confidence": "medium"
+  }
+]

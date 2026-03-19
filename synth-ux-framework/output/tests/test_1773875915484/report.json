@@ -1,0 +1,87 @@
+{
+  "test_id": "test_1773875915484",
+  "url": "https://dreamduo.netlify.app/",
+  "started_at": "2026-03-18T23:18:35.486Z",
+  "pages_visited": [
+    "https://dreamduo.netlify.app/",
+    "https://dreamduo.netlify.app/tasks",
+    "https://dreamduo.netlify.app/calendar",
+    "https://dreamduo.netlify.app/dashboard",
+    "https://dreamduo.netlify.app/tags"
+  ],
+  "screenshots": [
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/page_1_landing.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/login_filled.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/after_login.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/page_2_after_login.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/page_3__calendar.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/page_4__dashboard.png",
+    "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/page_5__tags.png"
+  ],
+  "heuristic_findings": [
+    {
+      "heuristic": "H5: Error Prevention",
+      "severity": "medium",
+      "issue": "1 form(s) without required field validation",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "Accessibility",
+      "severity": "medium",
+      "issue": "1 clickable element(s) without accessible labels",
+      "page": "https://dreamduo.netlify.app/"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/tasks"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/calendar"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/dashboard"
+    },
+    {
+      "heuristic": "H10: Help and Documentation",
+      "severity": "low",
+      "issue": "No visible help or documentation link found",
+      "page": "https://dreamduo.netlify.app/tags"
+    }
+  ],
+  "errors": [],
+  "lighthouse": {
+    "scores": {
+      "performance": 60,
+      "accessibility": 96,
+      "best-practices": 93,
+      "seo": 75
+    },
+    "core_web_vitals": {
+      "LCP": "33.2 s",
+      "FID": "200 ms",
+      "CLS": "0.096"
+    }
+  },
+  "accessibility": {
+    "violations": 0,
+    "passes": 2,
+    "top_violations": []
+  },
+  "video_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/tests/test_1773875915484/d742e2e85335be37c115da36d70dbcaf.webm",
+  "ended_at": "2026-03-18T23:18:51.972Z",
+  "duration_ms": 16486
+}

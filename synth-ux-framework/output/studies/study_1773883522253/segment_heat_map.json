@@ -1,0 +1,57 @@
+{
+  "segments": [
+    {
+      "segment": "Project Managers & Freelance Developers (High Severity, Low Satisfaction, High Willingness to Switch)",
+      "personas": [
+        "project_manager_priya",
+        "freelance_developer_david"
+      ],
+      "problem_severity": 4,
+      "current_alternative_satisfaction": 2,
+      "willingness_to_switch": 8,
+      "pmf_probability_score": 20,
+      "recommendation": "Potentially high PMF *if* usability and onboarding issues are resolved. Both are paying for alternatives (Asana, Trello) but were blocked by critical usability flaws. Prioritize fixing login/account creation and address initial confusion."
+    },
+    {
+      "segment": "Small Business Owners (Medium Severity, Medium Satisfaction, Medium Willingness to Switch)",
+      "personas": [
+        "small_business_owner_sarah"
+      ],
+      "problem_severity": 3,
+      "current_alternative_satisfaction": 5,
+      "willingness_to_switch": 5,
+      "pmf_probability_score": 10,
+      "recommendation": "Medium PMF potential. Sarah is aware of the need for a better solution, but the initial experience was very poor. Focus on simplicity, relevance, and addressing the core need for task management that's better than a paper planner. Ensure the 'Add New Task' button works!"
+    },
+    {
+      "segment": "Academic Researchers (Low Severity, Medium Satisfaction, Low Willingness to Switch)",
+      "personas": [
+        "academic_researcher_emily"
+      ],
+      "problem_severity": 2,
+      "current_alternative_satisfaction": 6,
+      "willingness_to_switch": 3,
+      "pmf_probability_score": 5,
+      "recommendation": "Low PMF potential. Emily uses Todoist, indicating existing project tracking, and while the product disappointed her, she isn't urgently seeking alternatives. Significant improvements in usability and value proposition would be necessary."
+    },
+    {
+      "segment": "Cynical IT Managers (Lowest Severity, High Satisfaction, Negative Willingness to Switch)",
+      "personas": [
+        "cynical_it_manager_mark"
+      ],
+      "problem_severity": 1,
+      "current_alternative_satisfaction": 8,
+      "willingness_to_switch": 1,
+      "pmf_probability_score": 1,
+      "recommendation": "Very low PMF potential. Mark is highly resistant to change, prioritizes security above all else, and is already using Jira and Asana. The product's theme and security issues are significant deterrents. This segment should not be a focus."
+    }
+  ],
+  "desperate_users": {
+    "segment": "Project Managers & Freelance Developers",
+    "evidence": [
+      "Priya: \"I don't have time to waste on a product that isn't straightforward.\"",
+      "David: Pays $15/month for Trello to manage multiple client projects"
+    ]
+  },
+  "best_pmf_opportunity": "Focus on the Project Managers & Freelance Developers segment. While there's high churn now, these are the *only* users actively looking for and paying for better project management solutions. Prioritize fixing the login/account creation process and making the initial experience intuitive. If successful, you can capture a large market share. If not, no one will use the product."
+}

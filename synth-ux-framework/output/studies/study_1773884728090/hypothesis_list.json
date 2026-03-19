@@ -1,0 +1,11 @@
+{
+  "hypotheses": [
+    {
+      "id": "hyp_1",
+      "heuristic": "h8",
+      "hypothesis": "Users with low vision will struggle to read the labels and input fields due to insufficient color contrast, leading to errors and frustration during the login process.",
+      "severity": "high",
+      "testable": true
+    }
+  ]
+}

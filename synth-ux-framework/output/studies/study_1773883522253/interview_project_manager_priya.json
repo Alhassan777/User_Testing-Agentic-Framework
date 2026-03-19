@@ -1,0 +1,70 @@
+{
+  "persona_id": "project_manager_priya",
+  "persona_name": "Priya Sharma",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "Honestly, it was confusing. I landed on a page that seemed like I was already logged in, which made no sense because I hadn't even signed up yet. It felt messy right from the start.",
+      "insight": "The initial onboarding experience is crucial and needs to be clear."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "Definitely the lack of a clear sign-up or create account option and then being automatically 'logged in'. I spent too much time trying to figure out if I even needed to create an account or not.",
+      "insight": "The sign-up process needs to be immediately obvious and intuitive."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "I can't really say there was a delightful part. Just confusion.",
+      "insight": "Currently, the product lacks any clear positive or engaging elements."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "not_disappointed",
+      "insight": "The product doesn't provide significant value in its current state."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "Probably not. The initial experience was frustrating, and I don't have time to waste on a product that isn't straightforward.",
+      "insight": "The product needs significant improvements to become usable and appealing."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "I wouldn't recommend this to anyone in its current state. I'd tell them to steer clear until they fix the basic login and navigation issues.",
+      "insight": "The product has significant usability issues that prevent positive recommendations."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "Right now, I wouldn't pay anything for it. We currently pay around $50/month per user for Asana, which is much more intuitive and reliable.",
+      "insight": "The product needs to provide demonstrable value before it can compete on price."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "First, a clear and easy sign-up process. Second, intuitive navigation and a dashboard that actually makes sense. And a general overhaul of the user interface to make it less overwhelming.",
+      "insight": "Significant UI/UX improvements are required for regular use."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "A simple way to understand what the product *does* and how to use it. Also, a clear way to create an account.",
+      "insight": "The product lacks a clear value proposition and onboarding experience."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "Compared to Asana, which we use now, this is a mess. Asana is clean, intuitive, and easy to navigate. This feels like a beta version that wasn't properly tested.",
+      "insight": "The product lags significantly behind established competitors in terms of usability and design."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No, I didn't have one. It was just a series of frustrating moments.",
+      "insight": "The product failed to provide any moments of positive discovery or understanding."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "2",
+      "insight": "The product is highly unlikely to be recommended in its current state."
+    }
+  ],
+  "sean_ellis_score": "not_disappointed",
+  "would_return": false,
+  "referral_specificity": "no one",
+  "willingness_to_pay": "$0/month"
+}

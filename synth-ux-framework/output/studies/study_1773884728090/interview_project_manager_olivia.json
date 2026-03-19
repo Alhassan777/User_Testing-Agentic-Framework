@@ -1,0 +1,70 @@
+{
+  "persona_id": "project_manager_olivia",
+  "persona_name": "Olivia Chen",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "It's… promising on the surface. Lots of view options and filters, which is great. But the unexpected login and the tasks not loading really soured the experience.",
+      "insight": "Good feature set, but major technical issues impact usability."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "Definitely the 'Successfully logged in to Survey Corps' message. I didn't log in, and I have no idea what 'Survey Corps' is supposed to be. That's just bizarre and unprofessional.",
+      "insight": "Branding and initial user experience are seriously flawed."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "Honestly, there wasn't really a 'delightful' part. The *potential* for the filters and view options to be useful was there, but it never got to that point because the tasks wouldn't load.",
+      "insight": "Positive features are overshadowed by critical errors."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "not_disappointed",
+      "insight": "Doesn't see a strong value proposition yet."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "No. Why would I? The tasks didn't load. I'd be wasting my time. Fix the bugs first.",
+      "insight": "Current state is unusable for core function."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "I wouldn't recommend this to anyone in its current state. I'd be embarrassed to suggest it. Maybe after a complete overhaul and bug fix.",
+      "insight": "Reputation risk due to product quality."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "I wouldn't pay anything for it right now. We use Asana, and pay $25/user/month. It actually works.",
+      "insight": "No perceived value justifies cost compared to a working alternative."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "First, the tasks need to actually LOAD. Second, get rid of the weird 'Survey Corps' thing and make the branding consistent and professional. Then, I'd need to see if the features are actually useful and intuitive in a real-world scenario.",
+      "insight": "Critical bugs and branding issues are major barriers to adoption."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "Actually functioning tasks! Seriously, that's kind of the point, isn't it? I also expected a more professional and polished user experience.",
+      "insight": "Core functionality is absent; professional presentation lacking."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "It doesn't even compare to Asana. Asana is polished, reliable, and gets the job done. This is… broken and confusing.",
+      "insight": "Falls far short of competitor in terms of usability and reliability."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No aha moment. Just a 'what is going on?' moment.",
+      "insight": "No positive, insightful experience."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "1. And that's only because zero isn't an option.",
+      "insight": "Extremely low likelihood of recommendation due to poor experience."
+    }
+  ],
+  "sean_ellis_score": "not_disappointed",
+  "would_return": false,
+  "referral_specificity": "I wouldn't recommend it to anyone until it's fixed.",
+  "willingness_to_pay": "$0/month"
+}

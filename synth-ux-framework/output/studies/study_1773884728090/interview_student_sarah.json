@@ -1,0 +1,70 @@
+{
+  "persona_id": "student_sarah",
+  "persona_name": "Sarah Johnson",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "It seems... functional, I guess? I'm a little confused about how I got logged in without actually logging in. It also seems like I can manage tasks here which is what I need.",
+      "insight": "The auto-login is creating confusion."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "Definitely the login situation. I was immediately on the tasks page and it said 'Welcome back!', but I didn't see any login or registration options to begin with. It made me wonder if I was already logged in, and if so, how?",
+      "insight": "The lack of visible login/registration options is confusing."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "Hmm... I don't know if there was a *delightful* part exactly. I guess the filtering options looked pretty good? If they work well, that could be helpful.",
+      "insight": "No clear delight moments observed."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "somewhat_disappointed",
+      "insight": "Need is there, but not strong."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "Maybe. It seems like it *could* be useful for organizing my assignments, but the weird login experience makes me hesitant.",
+      "insight": "Utility is promising, but onboarding needs work."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "Probably my friend Mark. He's always complaining about being disorganized. I'd tell him to check it out, but warn him about the confusing login stuff.",
+      "insight": "Potential referral, but with caveats."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "If it worked really well and kept me organized, maybe $5 a month? Right now I'm just using a free to-do list app.",
+      "insight": "Low price sensitivity currently."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "Definitely the login/registration process. It needs to be clear and straightforward. Also, a tutorial or something would be nice to explain all the features.",
+      "insight": "Improved onboarding and a better login experience are crucial."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "Login/Registration options on the main Tasks page. Like, front and center. It's kind of the most basic thing!",
+      "insight": "Missing fundamental UI elements."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "I don't know, I haven't really used anything that does *exactly* this. My free to-do list is much simpler, but at least I know how to log in and out!",
+      "insight": "Difficult to compare without direct competitors used."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No, not really. It was more like a \"huh?\" moment when I couldn't find the login.",
+      "insight": "No positive revelation occurred."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "Probably a 5. It has potential, but the login thing is a big problem.",
+      "insight": "Net Promoter Score is low due to usability issues."
+    }
+  ],
+  "sean_ellis_score": "somewhat_disappointed",
+  "would_return": true,
+  "referral_specificity": "specific person",
+  "willingness_to_pay": "$5/month"
+}

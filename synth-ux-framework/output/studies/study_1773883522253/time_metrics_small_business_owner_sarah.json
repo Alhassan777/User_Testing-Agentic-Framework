@@ -1,0 +1,30 @@
+{
+  "ttfma_seconds": 20,
+  "hesitation_events": [
+    {
+      "timestamp_ms": 0,
+      "duration_ms": 5000,
+      "context": "Okay, let's see. This is supposed to help me with tasks. Oh, it looks like I'm already logged in? It says 'Welcome back!' I don't remember creating an account though… Successfully logged in to Survey Corps. What's Survey Corps?"
+    },
+    {
+      "timestamp_ms": 5000,
+      "duration_ms": 5000,
+      "context": "Right, tasks. I see a 'Tasks' heading. And then 'Calendar View', 'Dashboard', 'Tags', 'Theme'... I guess this is where I manage things. 'Add Category', 'List View', 'Canvas View'..."
+    },
+    {
+      "timestamp_ms": 10000,
+      "duration_ms": 5000,
+      "context": "Okay, there are already tasks listed. 'Football', 'Book the Field', 'Capstone Meeting', 'Prepare the Presentation', 'Revise the Draft', 'Become a Student Athlete'. These are NOT bakery tasks. This is very confusing! Are these examples?"
+    },
+    {
+      "timestamp_ms": 15000,
+      "duration_ms": 5000,
+      "context": "Filters... 'Categories', 'Sports', 'Academics', 'Priorities', 'Low', 'Urgent', 'Deadline', 'Status'... I need to figure out how to get rid of these example tasks and add my own."
+    }
+  ],
+  "backtrack_events": [],
+  "total_time_seconds": 23,
+  "steps_count": 7,
+  "optimal_steps": 17,
+  "efficiency_score": 100
+}

@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "page": "Homepage",
+      "url": "https://dreamduo.netlify.app/",
+      "tasks": [
+        {
+          "goal": "Create an account / Sign up",
+          "expected_target": "Please Register",
+          "first_click_predictions": [
+            {
+              "element": "Please Register",
+              "probability": 0.75,
+              "reasoning": "Clear call to action for account creation."
+            },
+            {
+              "element": "Login",
+              "probability": 0.15,
+              "reasoning": "Users may mistakenly click Login first if they are unsure if they have an account."
+            },
+            {
+              "element": "Google button",
+              "probability": 0.1,
+              "reasoning": "Users may attempt to sign up with Google directly if it is available."
+            }
+          ],
+          "correct_rate": 0.75,
+          "avg_hesitation_ms": 1500,
+          "information_scent": "good"
+        },
+        {
+          "goal": "Find pricing information",
+          "expected_target": "No pricing information is available on the homepage",
+          "first_click_predictions": [
+            {
+              "element": "Login",
+              "probability": 0.3,
+              "reasoning": "Users may assume pricing will be revealed after login, though illogical."
+            },
+            {
+              "element": "Login with Google",
+              "probability": 0.2,
+              "reasoning": "Same as above. Try all login options."
+            },
+            {
+              "element": "Please Register",
+              "probability": 0.15,
+              "reasoning": "Users might click on Register assuming pricing is visible after registration."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 5000,
+          "information_scent": "Poor.  No pricing information is directly available."
+        },
+        {
+          "goal": "Learn what the product does",
+          "expected_target": "The content is very minimal.  Likely nowhere obvious.",
+          "first_click_predictions": [
+            {
+              "element": "Login",
+              "probability": 0.3,
+              "reasoning": "Since there is not enough info they will likely try to login and hope there is more content after."
+            },
+            {
+              "element": "Please Register",
+              "probability": 0.3,
+              "reasoning": "Since there is not enough info they will likely try to register and hope there is more content after."
+            },
+            {
+              "element": "Google Button",
+              "probability": 0.2,
+              "reasoning": "Trying Google Login in the hopes of more information."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 4000,
+          "information_scent": "Very Weak. Almost no info on home page."
+        },
+        {
+          "goal": "Contact support or get help",
+          "expected_target": "No contact support available",
+          "first_click_predictions": [
+            {
+              "element": "Login",
+              "probability": 0.3,
+              "reasoning": "Hoping to find support options within the logged in area."
+            },
+            {
+              "element": "Please Register",
+              "probability": 0.2,
+              "reasoning": "Same as above for finding support after registration."
+            },
+            {
+              "element": "Login with Google",
+              "probability": 0.2,
+              "reasoning": "Same as above. Try all login options."
+            }
+          ],
+          "correct_rate": 0,
+          "avg_hesitation_ms": 6000,
+          "information_scent": "Extremely weak.  No support information visible."
+        }
+      ]
+    }
+  ],
+  "information_scent_score": 20,
+  "navigation_clarity_score": 30
+}

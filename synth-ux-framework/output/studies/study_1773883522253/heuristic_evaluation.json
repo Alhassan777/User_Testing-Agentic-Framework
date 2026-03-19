@@ -1,0 +1,87 @@
+{
+  "evaluator": "AI Heuristic Evaluator",
+  "url": "https://dreamduo.netlify.app/",
+  "timestamp": "2024-09-07T17:22:04Z",
+  "heuristics": [
+    {
+      "id": "h1",
+      "name": "Visibility of system status",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h2",
+      "name": "Match between system and real world",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h3",
+      "name": "User control and freedom",
+      "violations": [],
+      "score": 9
+    },
+    {
+      "id": "h4",
+      "name": "Consistency and standards",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h5",
+      "name": "Error prevention",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h6",
+      "name": "Recognition rather than recall",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h7",
+      "name": "Flexibility and efficiency of use",
+      "violations": [],
+      "score": 7
+    },
+    {
+      "id": "h8",
+      "name": "Aesthetic and minimalist design",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h9",
+      "name": "Help users recognize, diagnose, and recover from errors",
+      "violations": [],
+      "score": 8
+    },
+    {
+      "id": "h10",
+      "name": "Help and documentation",
+      "violations": [],
+      "score": 6
+    }
+  ],
+  "wcag_violations": [
+    {
+      "criterion": "1.4.3",
+      "level": "AA",
+      "description": "Insufficient color contrast between text and background. It is difficult to read the text, especially for users with low vision.",
+      "impact": "Users with low vision cannot read the text.",
+      "element": "Email, Password, Login, Or login with, Google, Facebook, GitHub, Haven't Joined Us yet? Please Register",
+      "recommendation": "Increase the contrast ratio between the text and background to meet WCAG 2.1 AA requirements (4.5:1 for normal text, 3:1 for large text)."
+    }
+  ],
+  "hypothesis_list": [
+    {
+      "id": "hyp_1",
+      "hypothesis": "Users will have difficulty reading the text due to low color contrast and may abandon the page because of it.",
+      "heuristic_source": "h8",
+      "testable": true,
+      "severity": "high"
+    }
+  ],
+  "overall_score": 75
+}

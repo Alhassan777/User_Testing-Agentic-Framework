@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-03-19T01:43:05.874Z",
+  "app_name": "DreamDuo",
+  "instructions": [
+    "Annotations now correctly placed on after_login.png",
+    "Color key: red=critical, orange=high"
+  ],
+  "annotations": [
+    {
+      "id": "ann_1",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/after_login.png",
+      "title": "Automatic Login / Welcome Message",
+      "description": "Users see \"Welcome back! Successfully logged in to Survey Corps\" without creating an account - confusing and raises security concerns.",
+      "severity": "critical",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 38,
+        "y": 73,
+        "width": 28,
+        "height": 10
+      },
+      "element_description": "Green success toast message"
+    },
+    {
+      "id": "ann_2",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/after_login.png",
+      "title": "Wrong Account Name (Survey Corps)",
+      "description": "App is DreamDuo but shows \"Survey Corps\" - wrong branding or leftover test data.",
+      "severity": "high",
+      "color_token": "orange",
+      "rect_pct": {
+        "x": 38,
+        "y": 77,
+        "width": 28,
+        "height": 5
+      },
+      "element_description": "Survey Corps text in toast"
+    },
+    {
+      "id": "ann_3",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/after_login.png",
+      "title": "Incorrect Sample Tasks",
+      "description": "Random unrelated tasks (Football, Capstone Meeting, Book the Field) appear as if belonging to another user.",
+      "severity": "critical",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 10,
+        "y": 28,
+        "width": 85,
+        "height": 55
+      },
+      "element_description": "Task cards showing irrelevant content"
+    },
+    {
+      "id": "ann_4",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/after_login.png",
+      "title": "Pre-populated User Data",
+      "description": "User avatar (E) and existing tasks suggest logging into someone else's account - privacy concern.",
+      "severity": "critical",
+      "color_token": "red",
+      "rect_pct": {
+        "x": 2,
+        "y": 2,
+        "width": 6,
+        "height": 6
+      },
+      "element_description": "User avatar showing E"
+    },
+    {
+      "id": "ann_5",
+      "screenshot_path": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/after_login.png",
+      "title": "No Logout or Account Settings Visible",
+      "description": "No clear way to logout or access account settings from the main view.",
+      "severity": "high",
+      "color_token": "orange",
+      "rect_pct": {
+        "x": 0,
+        "y": 10,
+        "width": 8,
+        "height": 60
+      },
+      "element_description": "Left navigation sidebar missing account options"
+    }
+  ]
+}

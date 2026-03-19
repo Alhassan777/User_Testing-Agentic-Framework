@@ -1,0 +1,35 @@
+{
+  "ttfma_seconds": 0,
+  "hesitation_events": [
+    {
+      "timestamp_ms": 0,
+      "duration_ms": 5000,
+      "context": "Hmm, 'Tasks' it says at the top. Looks like a list of some sort. Lot of things to click on... 'Categories', 'Priorities', 'Deadline'... Oh dear."
+    },
+    {
+      "timestamp_ms": 5000,
+      "duration_ms": 5000,
+      "context": "Right, register... where's the register button? I don't see one. Maybe it's somewhere else? I'm already on the Tasks page though. Oh, it says 'Welcome back! Successfully logged in to Survey Corps.' at the bottom. Maybe I'm already logged in? But I don't remember ever using this thing before…"
+    },
+    {
+      "timestamp_ms": 18000,
+      "duration_ms": 4000,
+      "context": "GitHub? Sounds like something from a science fiction film. I'll pass on that one too. I just want to list my tomato plants!"
+    },
+    {
+      "timestamp_ms": 22000,
+      "duration_ms": 8000,
+      "context": "Mission Dashboard? What mission? I thought this was for gardening. Where is this 'Mission Dashboard'? I can't see a button or link for it."
+    },
+    {
+      "timestamp_ms": 30000,
+      "duration_ms": 5000,
+      "context": "Can't even find where to register in the first place. How am I supposed to use an invalid email?"
+    }
+  ],
+  "backtrack_events": [],
+  "total_time_seconds": 35,
+  "steps_count": 9,
+  "optimal_steps": 22,
+  "efficiency_score": 100
+}

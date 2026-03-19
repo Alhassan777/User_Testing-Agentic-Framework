@@ -1,0 +1,174 @@
+{
+  "sus_score": 18,
+  "sus_grade": "F",
+  "heart_metrics": {
+    "happiness": 5,
+    "engagement": 10,
+    "adoption": 0,
+    "retention": 0,
+    "task_success": 0
+  },
+  "pmf_signals": {
+    "disappointment_score": 90,
+    "aha_moment_rate": 0,
+    "time_to_aha_avg_seconds": 0,
+    "referral_specificity_rate": 0,
+    "pmf_probability": 5
+  },
+  "time_metrics": {
+    "avg_ttfma_seconds": 0,
+    "hesitation_events_per_session": 3,
+    "backtrack_rate": 0
+  },
+  "qualitative_themes": [
+    {
+      "theme": "Broken Authentication Flow",
+      "category": "onboarding",
+      "frequency": 5,
+      "severity": "critical",
+      "evidence": [
+        "\"Wait a minute. I thought I was supposed to create an account first. But the page says 'Welcome back! Successfully logged in to Survey Corps.'\"",
+        "\"The lack of a clear 'create account' option, especially after signing out. I expected a registration page...The current flow just leaves you stranded.\"",
+        "\"I don't see any indication that I can create an account or logout to create one.\"",
+        "\"Oh, it looks like I'm already logged in? It says 'Welcome back!' I don't remember creating an account though…\"",
+        "\"'Welcome back! Successfully logged in to Survey Corps.' What the...? I didn't log in.\""
+      ],
+      "recommendation": "Implement a clear and functional account creation and login flow, including email/password and Google sign-in options. Resolve the 'phantom login' issue."
+    },
+    {
+      "theme": "Initial User Confusion",
+      "category": "onboarding",
+      "frequency": 4,
+      "severity": "high",
+      "evidence": [
+        "\"Honestly, it was confusing. I landed on a page that seemed like I was already logged in, which made no sense...\"",
+        "\"Honestly, I was a little confused. It felt like I walked into the wrong room. All those sports and school tasks...\"",
+        "\"Also, the vague sense of what it's *actually* supposed to be. Task manager? Game? What?\"",
+        "\"My initial experience was frustrating because I couldn't perform the basic account creation and login tasks I was asked to do.\""
+      ],
+      "recommendation": "Provide a clear welcome message and onboarding experience, explaining the purpose of the application and guiding users through the initial setup."
+    },
+    {
+      "theme": "Irrelevant Default Content",
+      "category": "core_functionality",
+      "frequency": 1,
+      "severity": "medium",
+      "evidence": [
+        "\"Okay, there are already tasks listed. 'Football', 'Book the Field'...These are NOT bakery tasks. This is very confusing!\""
+      ],
+      "recommendation": "Provide a default task list or a blank state appropriate to the user or at least indicate the content is sample content."
+    },
+    {
+      "theme": "Lack of Trust and Security",
+      "category": "trust",
+      "frequency": 1,
+      "severity": "critical",
+      "evidence": [
+        "\"What the...? I didn't log in. Did they just hallucinate my login? Big security red flag right there.\""
+      ],
+      "recommendation": "Address security concerns raised by automatic login. Communicate data protection measures clearly. Obtain a valid TLS certificate."
+    },
+    {
+      "theme": "Missing User Management Features",
+      "category": "core_functionality",
+      "frequency": 2,
+      "severity": "high",
+      "evidence": [
+        "\"Looking for team management...doesn't seem to be anything obvious here. Just tasks. Where's the user management panel?\"",
+        "\"I don't see any user management features on this page. It's just tasks, calendars, and filters.\""
+      ],
+      "recommendation": "Implement user management features, including user creation, role assignment, and permission control."
+    }
+  ],
+  "issue_inventory": [
+    {
+      "issue_id": "issue_001",
+      "title": "Broken Account Creation/Login",
+      "severity": "critical",
+      "frequency": 5,
+      "personas_affected": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah",
+        "academic_researcher_emily",
+        "cynical_it_manager_mark"
+      ],
+      "evidence_count": 5,
+      "rice_score": 100
+    },
+    {
+      "issue_id": "issue_002",
+      "title": "Confusing Initial Onboarding",
+      "severity": "high",
+      "frequency": 4,
+      "personas_affected": [
+        "project_manager_priya",
+        "small_business_owner_sarah",
+        "cynical_it_manager_mark",
+        "academic_researcher_emily"
+      ],
+      "evidence_count": 4,
+      "rice_score": 64
+    },
+    {
+      "issue_id": "issue_003",
+      "title": "Negative or Non-Existant Aha Moment",
+      "severity": "critical",
+      "frequency": 5,
+      "personas_affected": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah",
+        "academic_researcher_emily",
+        "cynical_it_manager_mark"
+      ],
+      "evidence_count": 5,
+      "rice_score": 100
+    },
+    {
+      "issue_id": "issue_004",
+      "title": "High Dissapointment Score / Low WTP",
+      "severity": "critical",
+      "frequency": 5,
+      "personas_affected": [
+        "project_manager_priya",
+        "freelance_developer_david",
+        "small_business_owner_sarah",
+        "academic_researcher_emily",
+        "cynical_it_manager_mark"
+      ],
+      "evidence_count": 5,
+      "rice_score": 100
+    },
+    {
+      "issue_id": "issue_005",
+      "title": "Missing User Management",
+      "severity": "medium",
+      "frequency": 2,
+      "personas_affected": [
+        "cynical_it_manager_mark",
+        "academic_researcher_emily"
+      ],
+      "evidence_count": 2,
+      "rice_score": 16
+    },
+    {
+      "issue_id": "issue_006",
+      "title": "Missing Security Information",
+      "severity": "critical",
+      "frequency": 1,
+      "personas_affected": [
+        "cynical_it_manager_mark"
+      ],
+      "evidence_count": 1,
+      "rice_score": 20
+    }
+  ],
+  "insights_summary": {
+    "top_strength": "Comprehensive task management features (in theory).",
+    "top_weakness": "Fundamentally broken authentication and onboarding experience.",
+    "biggest_opportunity": "Create a clear and frictionless user onboarding flow.",
+    "biggest_risk": "Security concerns deterring IT professionals and other users.",
+    "one_thing_to_fix": "Implement a functional account creation and login system."
+  }
+}

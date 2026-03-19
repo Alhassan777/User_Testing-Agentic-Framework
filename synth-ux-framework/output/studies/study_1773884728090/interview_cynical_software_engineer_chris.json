@@ -1,0 +1,70 @@
+{
+  "persona_id": "cynical_software_engineer_chris",
+  "persona_name": "Chris Evans",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "Clunky. Not intuitive. Feels like it was designed by someone who doesn't actually *use* software.",
+      "insight": "The UI needs serious work. Prioritize user flow."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "Trying to find the damn 'Mission Dashboard'! Why isn't it the landing page after login? Why is it buried as a tiny tab? That's UX 101 stuff.",
+      "insight": "Navigation is a disaster. Redesign the entry point and make the dashboard prominent."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "Delightful? Let's not get carried away. Maybe the fact that I eventually found the dashboard before I completely lost my mind.",
+      "insight": "There's nothing particularly delightful. Need to focus on basic usability before worrying about 'delight'."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "Somewhat_disappointed",
+      "insight": "Product has utility but very poor design choices."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "Probably, because I'm already stuck with it, aren't I? But I'd be complaining the whole time.",
+      "insight": "Lack of alternative is the only reason for reuse."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "I'd only recommend it to someone I *really* disliked. I'd tell them, 'Good luck figuring this mess out.'",
+      "insight": "Recommendation is negative; significant usability barriers exist."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "I wouldn't pay anything for it in its current state. I'd be looking for a free alternative. Seriously.",
+      "insight": "Current version has zero perceived monetary value"
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "A complete UI overhaul. Streamlined navigation. Faster loading times. And maybe a less ridiculous name for the task categories.",
+      "insight": "Significant improvements are necessary for regular usage"
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "A logical user flow. I expect to be able to find what I need without playing hide-and-seek with the UI.",
+      "insight": "User flow and discoverability are key issues."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "I'd rather use *anything* else. Notepad and a pen are looking pretty good right now.",
+      "insight": "Existing tools preferable"
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "The 'aha moment' was realizing how much time I was wasting trying to navigate this thing.",
+      "insight": "Negative aha moment - product is inefficient."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "2. And that's being generous.",
+      "insight": "Extremely low recommendation score; indicates significant dissatisfaction"
+    }
+  ],
+  "sean_ellis_score": "somewhat_disappointed",
+  "would_return": true,
+  "referral_specificity": "someone I really disliked",
+  "willingness_to_pay": "$0/month"
+}

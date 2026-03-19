@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-19T01:28:45.206Z",
+  "note": "Figma-ready structured cards for manual import or MCP automation.",
+  "cards": [
+    {
+      "id": "project_manager_priya_friction",
+      "title": "Primary friction for Priya Sharma",
+      "persona": "Priya Sharma",
+      "type": "friction",
+      "severity": "high",
+      "evidence": "Wait a minute. I thought I was supposed to create an account first. But the page says 'Welcome back! Successfully logged in to Survey Corps.' That's weird. Did it automatically log me in with some default account?",
+      "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+      "source": "session_project_manager_priya.json"
+    },
+    {
+      "id": "freelance_developer_david_friction",
+      "title": "Primary friction for David Lee",
+      "persona": "David Lee",
+      "type": "friction",
+      "severity": "high",
+      "evidence": "Okay, now that I've signed out (presumably), I'll look for the email/password creation. Actually, after logging out, I'm not directed to a page where I can create a new account. The task says to create an account using email/password but I can't see any option to do so.",
+      "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+      "source": "session_freelance_developer_david.json"
+    },
+    {
+      "id": "small_business_owner_sarah_friction",
+      "title": "Primary friction for Sarah Chen",
+      "persona": "Sarah Chen",
+      "type": "friction",
+      "severity": "critical",
+      "evidence": "Okay, there are already tasks listed. 'Football', 'Book the Field', 'Capstone Meeting', 'Prepare the Presentation', 'Revise the Draft', 'Become a Student Athlete'. These are NOT bakery tasks. This is very confusing! Are these examples?",
+      "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+      "source": "session_small_business_owner_sarah.json"
+    },
+    {
+      "id": "academic_researcher_emily_friction",
+      "title": "Primary friction for Emily Carter",
+      "persona": "Emily Carter",
+      "type": "friction",
+      "severity": "high",
+      "evidence": "I don't see any indication that I can create an account or logout to create one. Let's try adding a new task to see what happens. Maybe it will prompt me for login details then. Clicking 'Add New Task'.",
+      "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+      "source": "session_academic_researcher_emily.json"
+    },
+    {
+      "id": "cynical_it_manager_mark_friction",
+      "title": "Primary friction for Mark Johnson",
+      "persona": "Mark Johnson",
+      "type": "friction",
+      "severity": "critical",
+      "evidence": "\"Welcome back! Successfully logged in to Survey Corps.\" What the...? I didn't log in. Did they just hallucinate my login? Big security red flag right there.",
+      "screenshot": "/Users/alhassanahmed/Desktop/User Testing Agentic Framework/synth-ux-framework/output/studies/study_1773883522253/screenshots/landing.png",
+      "source": "session_cynical_it_manager_mark.json"
+    }
+  ]
+}

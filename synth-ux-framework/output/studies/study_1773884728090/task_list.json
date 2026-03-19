@@ -1,0 +1,181 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "task": "Register for a new account using a valid email address and password.",
+      "category": "setup/onboarding",
+      "priority": "high",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User is successfully redirected to the Mission Dashboard after registration.",
+        "optimal_path_steps": 3,
+        "max_acceptable_steps": 5,
+        "time_expectation_seconds": 60
+      },
+      "potential_friction": [
+        "Unclear password requirements, error messages, slow loading times."
+      ]
+    },
+    {
+      "task_id": "task_002",
+      "task": "Log in to the app using the credentials created during registration.",
+      "category": "core_functionality",
+      "priority": "high",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User is successfully redirected to the Mission Dashboard after login.",
+        "optimal_path_steps": 2,
+        "max_acceptable_steps": 4,
+        "time_expectation_seconds": 30
+      },
+      "potential_friction": [
+        "Incorrect credentials error message, forgotten password flow issues, slow loading times."
+      ]
+    },
+    {
+      "task_id": "task_003",
+      "task": "Log in using Google OAuth.",
+      "category": "social_login",
+      "priority": "medium",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User is successfully redirected to the Mission Dashboard after authenticating with Google.",
+        "optimal_path_steps": 4,
+        "max_acceptable_steps": 6,
+        "time_expectation_seconds": 45
+      },
+      "potential_friction": [
+        "Permissions requests, Google account selection issues, error messages, redirection loops."
+      ]
+    },
+    {
+      "task_id": "task_004",
+      "task": "Log in using Facebook OAuth.",
+      "category": "social_login",
+      "priority": "medium",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User is successfully redirected to the Mission Dashboard after authenticating with Facebook.",
+        "optimal_path_steps": 4,
+        "max_acceptable_steps": 6,
+        "time_expectation_seconds": 45
+      },
+      "potential_friction": [
+        "Permissions requests, Facebook account selection issues, error messages, redirection loops."
+      ]
+    },
+    {
+      "task_id": "task_005",
+      "task": "Log in using GitHub OAuth.",
+      "category": "social_login",
+      "priority": "medium",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User is successfully redirected to the Mission Dashboard after authenticating with GitHub.",
+        "optimal_path_steps": 4,
+        "max_acceptable_steps": 6,
+        "time_expectation_seconds": 45
+      },
+      "potential_friction": [
+        "Permissions requests, GitHub account selection issues, error messages, redirection loops."
+      ]
+    },
+    {
+      "task_id": "task_006",
+      "task": "Navigate to the Mission Dashboard and identify the key elements.",
+      "category": "core_functionality",
+      "priority": "high",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "User can identify and describe the purpose of the key elements (e.g., mission list, progress bar, filters).",
+        "optimal_path_steps": 1,
+        "max_acceptable_steps": 1,
+        "time_expectation_seconds": 30
+      },
+      "potential_friction": [
+        "Unclear labeling, confusing layout, overwhelming amount of information."
+      ]
+    },
+    {
+      "task_id": "task_007",
+      "task": "Try to register with an invalid email format (e.g., missing @ symbol).",
+      "category": "edge_case",
+      "priority": "high",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "App displays a clear and informative error message indicating the invalid email format.",
+        "optimal_path_steps": 2,
+        "max_acceptable_steps": 3,
+        "time_expectation_seconds": 20
+      },
+      "potential_friction": [
+        "Vague error messages, no error message displayed, page crash."
+      ]
+    },
+    {
+      "task_id": "task_008",
+      "task": "Try to log in with an email address that is not registered.",
+      "category": "edge_case",
+      "priority": "high",
+      "personas_applicable": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "success_criteria": {
+        "completion_indicator": "App displays a clear and informative error message indicating the email address is not registered.",
+        "optimal_path_steps": 2,
+        "max_acceptable_steps": 3,
+        "time_expectation_seconds": 20
+      },
+      "potential_friction": [
+        "Vague error messages, no error message displayed, page crash."
+      ]
+    }
+  ],
+  "task_flow_recommended": [
+    "task_001",
+    "task_002",
+    "task_006"
+  ]
+}

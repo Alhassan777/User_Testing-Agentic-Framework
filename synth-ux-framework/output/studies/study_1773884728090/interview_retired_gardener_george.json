@@ -1,0 +1,70 @@
+{
+  "persona_id": "retired_gardener_george",
+  "persona_name": "George Miller",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "Well, it seemed… busy. A lot going on. I wasn't quite sure where to start. A bit overwhelming, to be honest.",
+      "insight": "Interface complexity and lack of clear direction create a negative first impression."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "That business about being logged in already when I hadn't even registered! I don't know what 'OAuth' and 'GitHub' are. Sounded like computer mumbo jumbo to me.",
+      "insight": "Inappropriate terminology and unclear login/registration processes cause confusion."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "I can't honestly say there was a delightful part. It was all a bit… perplexing.",
+      "insight": "The product lacks elements that create a positive user experience for this persona."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "Not disappointed.",
+      "insight": "The product doesn't meet a critical need for the persona."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "No, I don't think so. It was too complicated for me. I wouldn't know where to begin again.",
+      "insight": "The product's complexity and lack of usability make it unlikely for repeat use."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "Oh, I wouldn't recommend it to anyone, not in its current state. Not unless they were a computer whiz, and all that 'OAuth' and 'GitHub' stuff made sense to them.",
+      "insight": "The product is not suitable for users with low technical literacy."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "Pay? Oh, I wouldn't pay anything for it as it is. I don't use anything like it. I keep track of my gardening tasks with a notebook and calendar.",
+      "insight": "The product doesn't provide enough value to justify a purchase for this persona."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "It would need to be much, much simpler. Big, clear buttons. Plain English. And a good explanation of what it all does before I have to click on anything.",
+      "insight": "Simplified interface, clear instructions, and user-friendly language are essential for adoption."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "Well, I was expecting to find a way to register easily and then be able to log in. Like most things on the internet. And I was expecting it to be easy to figure out what the point of the whole thing was.",
+      "insight": "Clear registration/login process and a readily understandable purpose are crucial."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "I don't use anything like this on a computer. I use my paper notebook and calendar. They're much easier to understand.",
+      "insight": "The alternative (paper notebook) is simpler and more accessible for this persona."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No, no 'aha moment'. Just confusion, really.",
+      "insight": "The product fails to deliver a moment of clarity or understanding."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "Oh, a 1. Definitely a 1.",
+      "insight": "Low likelihood of recommendation due to poor user experience."
+    }
+  ],
+  "sean_ellis_score": "not_disappointed",
+  "would_return": false,
+  "referral_specificity": "computer whiz",
+  "willingness_to_pay": "$0/month"
+}

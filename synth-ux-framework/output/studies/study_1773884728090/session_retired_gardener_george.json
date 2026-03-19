@@ -1,0 +1,81 @@
+{
+  "persona_id": "retired_gardener_george",
+  "actions": [
+    {
+      "timestamp": 0,
+      "action": "view_page",
+      "narration": "Hmm, 'Tasks' it says at the top. Looks like a list of some sort. Lot of things to click on... 'Categories', 'Priorities', 'Deadline'... Oh dear.",
+      "ux_flag": null
+    },
+    {
+      "timestamp": 5000,
+      "action": "attempt_registration",
+      "narration": "Right, register... where's the register button? I don't see one. Maybe it's somewhere else? I'm already on the Tasks page though. Oh, it says 'Welcome back! Successfully logged in to Survey Corps.' at the bottom. Maybe I'm already logged in? But I don't remember ever using this thing before…",
+      "ux_flag": "confusion",
+      "severity": "high"
+    },
+    {
+      "timestamp": 10000,
+      "action": "attempt_login",
+      "narration": "Well, since it says I'm logged in, I'll just assume I am. This is confusing though. Where are the options for registration and login? Why does it say I'm logged in when I don't remember doing that?",
+      "ux_flag": "confusion",
+      "severity": "high"
+    },
+    {
+      "timestamp": 12000,
+      "action": "attempt_google_login",
+      "narration": "Google OAuth? What's that? Oh dear, sounds complicated. Not touching that.",
+      "ux_flag": "avoidance",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 15000,
+      "action": "attempt_facebook_login",
+      "narration": "Facebook login? No thank you. I've heard too many bad things about that Facebook. Never use it.",
+      "ux_flag": "avoidance",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 18000,
+      "action": "attempt_github_login",
+      "narration": "GitHub? Sounds like something from a science fiction film. I'll pass on that one too. I just want to list my tomato plants!",
+      "ux_flag": "avoidance",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 22000,
+      "action": "navigate_dashboard",
+      "narration": "Mission Dashboard? What mission? I thought this was for gardening. Where is this 'Mission Dashboard'? I can't see a button or link for it.",
+      "ux_flag": "confusion",
+      "severity": "high"
+    },
+    {
+      "timestamp": 30000,
+      "action": "attempt_invalid_email_registration",
+      "narration": "Can't even find where to register in the first place. How am I supposed to use an invalid email?",
+      "ux_flag": "blocked",
+      "severity": "critical"
+    },
+    {
+      "timestamp": 35000,
+      "action": "attempt_login_unregistered_email",
+      "narration": "Still no idea where to log in either. Just see that welcome message at the bottom that I'm already logged in. This is frustrating. Maybe this thing isn't for me.",
+      "ux_flag": "blocked",
+      "severity": "critical"
+    }
+  ],
+  "aha_moment": {
+    "occurred": false,
+    "trigger": null,
+    "time_seconds": null,
+    "quote": null
+  },
+  "friction_points": [
+    "No clear registration or login options visible on the page.",
+    "Confusing message indicating the user is already logged in without having registered or logged in.",
+    "Unfamiliar terminology like 'OAuth' and 'GitHub' causing avoidance.",
+    "Inability to locate the 'Mission Dashboard'.",
+    "General complexity of the interface."
+  ],
+  "delight_moments": []
+}

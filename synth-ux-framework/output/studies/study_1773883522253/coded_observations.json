@@ -1,0 +1,144 @@
+{
+  "themes": [
+    {
+      "code": "broken_authentication",
+      "definition": "Major issues with account creation, login, and logout functionality, leading to user blockage.",
+      "frequency": 5,
+      "examples": [
+        {
+          "source": "project_manager_priya_session",
+          "quote": "Wait a minute. I thought I was supposed to create an account first. But the page says 'Welcome back! Successfully logged in to Survey Corps.' That's weird. Did it automatically log me in with some default account?"
+        },
+        {
+          "source": "freelance_developer_david_interview",
+          "quote": "The lack of a clear 'create account' option, especially after signing out. I expected a registration page with email/password fields, or at least a prominent Google sign-in button. The current flow just leaves you stranded."
+        },
+        {
+          "source": "academic_researcher_emily_session",
+          "quote": "I don't see any indication that I can create an account or logout to create one. Let's try adding a new task to see what happens. Maybe it will prompt me for login details then. Clicking 'Add New Task'."
+        },
+        {
+          "source": "small_business_owner_sarah_session",
+          "quote": "Okay, let's see. This is supposed to help me with tasks. Oh, it looks like I'm already logged in? It says 'Welcome back!' I don't remember creating an account though… Successfully logged in to Survey Corps. What's Survey Corps?"
+        },
+        {
+          "source": "cynical_it_manager_mark_session",
+          "quote": "\"Welcome back! Successfully logged in to Survey Corps.\" What the...? I didn't log in. Did they just hallucinate my login? Big security red flag right there."
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "initial_confusion",
+      "definition": "Users are confused upon initial landing due to unexpected login status, irrelevant content, or lack of clear direction.",
+      "frequency": 4,
+      "examples": [
+        {
+          "source": "project_manager_priya_interview",
+          "quote": "Honestly, it was confusing. I landed on a page that seemed like I was already logged in, which made no sense because I hadn't even signed up yet. It felt messy right from the start."
+        },
+        {
+          "source": "small_business_owner_sarah_interview",
+          "quote": "Honestly, I was a little confused. It felt like I walked into the wrong room. All those sports and school tasks... not what I need for my bakery."
+        },
+        {
+          "source": "cynical_it_manager_mark_interview",
+          "quote": "The phantom login notification. 'Welcome back!' when I didn't log in? That's a major security alarm bell ringing. Also, the vague sense of what it's *actually* supposed to be. Task manager? Game? What?"
+        },
+        {
+          "source": "academic_researcher_emily_interview",
+          "quote": "It seems like a comprehensive task management system, but my initial experience was frustrating because I couldn't perform the basic account creation and login tasks I was asked to do. The interface itself seems well-organized, at least for task management."
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "negative_recommendation",
+      "definition": "Users are unwilling to recommend the product in its current state due to usability and functionality issues.",
+      "frequency": 5,
+      "examples": [
+        {
+          "source": "project_manager_priya_interview",
+          "quote": "I wouldn't recommend this to anyone in its current state. I'd tell them to steer clear until they fix the basic login and navigation issues."
+        },
+        {
+          "source": "freelance_developer_david_interview",
+          "quote": "I wouldn't recommend it to anyone in its current state. I'd tell them to wait until the basic login/registration is working before even considering it."
+        },
+        {
+          "source": "small_business_owner_sarah_interview",
+          "quote": "Honestly, I can't think of anyone I'd recommend it to *right now*. I'd need to see significant changes before I'd even think about suggesting it."
+        },
+        {
+          "source": "academic_researcher_emily_interview",
+          "quote": "I wouldn't recommend this to anyone in its current state. I would tell them that the account management is broken, and they won't be able to use it properly."
+        },
+        {
+          "source": "cynical_it_manager_mark_interview",
+          "quote": "I wouldn't recommend this to anyone I actually *like*. Maybe my competition? Tell them it's the next big thing?"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "zero_willingness_to_pay",
+      "definition": "Users express zero willingness to pay for the product in its present condition.",
+      "frequency": 5,
+      "examples": [
+        {
+          "source": "project_manager_priya_interview",
+          "quote": "Right now, I wouldn't pay anything for it. We currently pay around $50/month per user for Asana, which is much more intuitive and reliable."
+        },
+        {
+          "source": "freelance_developer_david_interview",
+          "quote": "I wouldn't pay anything for it in its current state. I currently pay $15/month for Trello for project management, and it actually works."
+        },
+        {
+          "source": "small_business_owner_sarah_interview",
+          "quote": "I wouldn't pay anything for it as it is. Right now, I'm just using a paper planner, which costs me maybe $10 a year. It's simple, but at least it works."
+        },
+        {
+          "source": "academic_researcher_emily_interview",
+          "quote": "I wouldn't pay anything for it in its current state. I currently pay $5/month for Todoist."
+        },
+        {
+          "source": "cynical_it_manager_mark_interview",
+          "quote": "I wouldn't pay a dime. We use Jira and Asana, and those actually *work* and have proper security. We pay a few hundred dollars a month, but it's worth it for the features and peace of mind."
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "irrelevant_example_content",
+      "definition": "Pre-populated task lists are irrelevant to the user's needs and create confusion.",
+      "frequency": 1,
+      "examples": [
+        {
+          "source": "small_business_owner_sarah_session",
+          "quote": "Okay, there are already tasks listed. 'Football', 'Book the Field', 'Capstone Meeting', 'Prepare the Presentation', 'Revise the Draft', 'Become a Student Athlete'. These are NOT bakery tasks. This is very confusing! Are these examples?"
+        }
+      ],
+      "coder_agreement": true
+    },
+    {
+      "code": "missing_user_management",
+      "definition": "Features for user management, security settings, and permissions are lacking or not easily discoverable.",
+      "frequency": 2,
+      "examples": [
+        {
+          "source": "cynical_it_manager_mark_session",
+          "quote": "Okay, if I were a Danchou... whatever that is... looking for team management... doesn't seem to be anything obvious here. Just tasks. Where's the user management panel? Is it even here?"
+        },
+        {
+          "source": "academic_researcher_emily_session",
+          "quote": "I'm a Danchou now, so I'm looking for anything related to managing other users. I don't see any user management features on this page. It's just tasks, calendars, and filters. Nothing about assigning tasks to team members or tracking their progress individually. The filters might be useful if multiple people used the same task list, but that is speculative."
+        }
+      ],
+      "coder_agreement": true
+    }
+  ],
+  "cohens_kappa": 1,
+  "reliability_rating": "excellent",
+  "disagreements": [],
+  "saturation_reached": true
+}

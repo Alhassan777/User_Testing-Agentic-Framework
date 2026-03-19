@@ -1,0 +1,70 @@
+{
+  "persona_id": "cynical_it_manager_mark",
+  "persona_name": "Mark Johnson",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "Seriously underwhelming. It felt like a half-baked project with a weird theme and questionable security practices. I'm an IT manager, not some anime fan playing make-believe.",
+      "insight": "The theme and branding are off-putting and unprofessional for business use."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "The phantom login notification. 'Welcome back!' when I didn't log in? That's a major security alarm bell ringing. Also, the vague sense of what it's *actually* supposed to be. Task manager? Game? What?",
+      "insight": "Fake notifications undermine trust and raise serious security concerns. The product lacks a clear and defined purpose."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "Nothing. Absolutely nothing. Unless you consider the relief of being done with it delightful.",
+      "insight": "The product failed to provide any positive user experience."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "not_disappointed",
+      "insight": "Mark would be relieved to stop using the product."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "Absolutely not. Because the security implications alone are enough to keep me far, far away. Plus, it doesn't even seem to *do* anything particularly well.",
+      "insight": "Security concerns and lack of clear functionality make future use highly unlikely."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "I wouldn't recommend this to anyone I actually *like*. Maybe my competition? Tell them it's the next big thing?",
+      "insight": "The product is deemed unsuitable for serious professional use and would only be recommended sarcastically or maliciously."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "I wouldn't pay a dime. We use Jira and Asana, and those actually *work* and have proper security. We pay a few hundred dollars a month, but it's worth it for the features and peace of mind.",
+      "insight": "The product is perceived as valueless compared to existing professional alternatives."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "A complete overhaul. Starting with ditching the cutesy theme, implementing actual security, and defining a clear purpose. User management features would also be nice. Basically, everything needs to change.",
+      "insight": "Significant improvements across all areas of the product are necessary for it to be considered viable."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "User management. Security settings. A clear explanation of how it protects data. Basic IT stuff.",
+      "insight": "Fundamental features expected in business software are absent."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "Compared to Jira or Asana? It's not even in the same league. Those are professional tools; this is... something else entirely.",
+      "insight": "The product is considered significantly inferior to established competitors."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "My 'aha moment' was realizing how much time I'd wasted on this thing.",
+      "insight": "The product failed to create any positive or insightful experiences."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "Negative ten. If that were an option.",
+      "insight": "The product receives the lowest possible recommendation score."
+    }
+  ],
+  "sean_ellis_score": "not_disappointed",
+  "would_return": false,
+  "referral_specificity": "Only to enemies/competitors",
+  "willingness_to_pay": "$0/month"
+}

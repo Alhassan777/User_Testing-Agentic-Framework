@@ -1,0 +1,178 @@
+{
+  "sus_score": 25,
+  "sus_grade": "F",
+  "heart_metrics": {
+    "happiness": 10,
+    "engagement": 20,
+    "adoption": 5,
+    "retention": 5,
+    "task_success": 10
+  },
+  "pmf_signals": {
+    "disappointment_score": 80,
+    "aha_moment_rate": 0,
+    "time_to_aha_avg_seconds": 0,
+    "referral_specificity_rate": 20,
+    "pmf_probability": 5
+  },
+  "time_metrics": {
+    "avg_ttfma_seconds": 0,
+    "hesitation_events_per_session": 3,
+    "backtrack_rate": 0.3
+  },
+  "qualitative_themes": [
+    {
+      "theme": "Confusing Login State",
+      "category": "onboarding",
+      "frequency": 5,
+      "severity": "critical",
+      "evidence": [
+        "project_manager_olivia: 'Successfully logged in to Survey Corps'…I didn't log in.",
+        "freelance_designer_david: 'Welcome back!' and 'Successfully logged in'… I hadn't even registered yet."
+      ],
+      "recommendation": "Implement a clear and accurate login/registration system. Ensure the user is not presented with a 'logged in' state unless they have actually logged in. Use appropriate messaging."
+    },
+    {
+      "theme": "Missing Registration Functionality",
+      "category": "core_functionality",
+      "frequency": 3,
+      "severity": "critical",
+      "evidence": [
+        "freelance_designer_david: I can't find a registration form at all.",
+        "student_sarah: I don't see any options to register for an account or even log out."
+      ],
+      "recommendation": "Implement a visible and functional registration process. Make it easily accessible from the landing page."
+    },
+    {
+      "theme": "Tasks Failing to Load",
+      "category": "core_functionality",
+      "frequency": 2,
+      "severity": "critical",
+      "evidence": [
+        "project_manager_olivia: It is stuck on loading.",
+        "cynical_software_engineer_chris: Seriously? Still loading?"
+      ],
+      "recommendation": "Investigate and resolve the issue causing tasks to fail to load. Implement appropriate loading indicators to provide feedback to the user."
+    },
+    {
+      "theme": "UI Complexity & Overwhelm",
+      "category": "onboarding",
+      "frequency": 3,
+      "severity": "high",
+      "evidence": [
+        "retired_gardener_george: A lot going on. I wasn't quite sure where to start.",
+        "freelance_designer_david: Seems pretty comprehensive, which is good, but also a little overwhelming at first glance.",
+        "cynical_software_engineer_chris: Clunky. Not intuitive."
+      ],
+      "recommendation": "Simplify the UI. Focus on essential features and improve the information architecture. Provide clear onboarding guidance."
+    },
+    {
+      "theme": "Branding Inconsistency ('Survey Corps')",
+      "category": "trust",
+      "frequency": 2,
+      "severity": "medium",
+      "evidence": [
+        "project_manager_olivia: 'Survey Corps'? I wasn't expecting that name. Confusing.",
+        "cynical_software_engineer_chris: Survey Corps? What is this, Attack on Titan fan fiction?"
+      ],
+      "recommendation": "Rebrand the application with a consistent and professional identity. Remove the confusing 'Survey Corps' branding."
+    },
+    {
+      "theme": "Dashboard Discoverability Issues",
+      "category": "navigation",
+      "frequency": 2,
+      "severity": "medium",
+      "evidence": [
+        "cynical_software_engineer_chris: Trying to find the damn 'Mission Dashboard'! Why isn't it the landing page after login?",
+        "retired_gardener_george: Where is this 'Mission Dashboard'? I can't see a button or link for it."
+      ],
+      "recommendation": "Make the 'Mission Dashboard' easily discoverable. Consider making it the default landing page after login or highlighting it in the navigation."
+    }
+  ],
+  "issue_inventory": [
+    {
+      "issue_id": "issue_001",
+      "title": "Missing Registration",
+      "severity": "critical",
+      "frequency": 3,
+      "personas_affected": [
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george"
+      ],
+      "evidence_count": 3,
+      "rice_score": 48
+    },
+    {
+      "issue_id": "issue_002",
+      "title": "Incorrect Login State",
+      "severity": "critical",
+      "frequency": 5,
+      "personas_affected": [
+        "project_manager_olivia",
+        "freelance_designer_david",
+        "student_sarah",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "evidence_count": 5,
+      "rice_score": 80
+    },
+    {
+      "issue_id": "issue_003",
+      "title": "Tasks Not Loading",
+      "severity": "critical",
+      "frequency": 2,
+      "personas_affected": [
+        "project_manager_olivia",
+        "cynical_software_engineer_chris"
+      ],
+      "evidence_count": 2,
+      "rice_score": 32
+    },
+    {
+      "issue_id": "issue_004",
+      "title": "UI Complexity",
+      "severity": "high",
+      "frequency": 3,
+      "personas_affected": [
+        "freelance_designer_david",
+        "retired_gardener_george",
+        "cynical_software_engineer_chris"
+      ],
+      "evidence_count": 3,
+      "rice_score": 24
+    },
+    {
+      "issue_id": "issue_005",
+      "title": "Dashboard Discoverability",
+      "severity": "medium",
+      "frequency": 2,
+      "personas_affected": [
+        "cynical_software_engineer_chris",
+        "retired_gardener_george"
+      ],
+      "evidence_count": 2,
+      "rice_score": 8
+    },
+    {
+      "issue_id": "issue_006",
+      "title": "Branding Inconsistency ('Survey Corps')",
+      "severity": "medium",
+      "frequency": 2,
+      "personas_affected": [
+        "project_manager_olivia",
+        "cynical_software_engineer_chris"
+      ],
+      "evidence_count": 2,
+      "rice_score": 8
+    }
+  ],
+  "insights_summary": {
+    "top_strength": "Clear sign in and sign out functionality. Basic task management features are present.  ",
+    "top_weakness": "Missing registration process.",
+    "biggest_opportunity": "Fix core funcionality to allow for user adoption.",
+    "biggest_risk": "Inability to recommend due to fundamental flaws in the user experience.",
+    "one_thing_to_fix": "Implement and test a functional registration process."
+  }
+}

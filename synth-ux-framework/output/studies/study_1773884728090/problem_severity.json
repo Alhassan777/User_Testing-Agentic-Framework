@@ -1,0 +1,62 @@
+{
+  "personas": [
+    {
+      "persona_id": "project_manager_olivia",
+      "severity_level": 4,
+      "evidence": "Olivia needs a solution urgently to manage marketing campaigns efficiently and meet deadlines. She has a budget allocated for Asana ($25/user/month) and is actively searching for alternatives but the product is completely unusable in its current state. She would NOT recommend this to anyone and would not use again tomorrow. She rates the likelihood of recommending a 1/10. She would pay $0.",
+      "current_workarounds": [
+        "Asana"
+      ],
+      "pain_intensity": 9,
+      "willingness_to_pay_signal": "$0/month, currently pays $25/user/month for Asana"
+    },
+    {
+      "persona_id": "freelance_designer_david",
+      "severity_level": 4,
+      "evidence": "David needs a task management system to stay organized, track billable hours, and collaborate effectively. However, he cannot even register for the application which is an extremely painful block. He would NOT recommend and would rate his likelihood of recommending 1/10. He would not use again tomorrow and would pay $0. He currently pays $15/month for Asana.",
+      "current_workarounds": [
+        "Asana"
+      ],
+      "pain_intensity": 8,
+      "willingness_to_pay_signal": "$0/month, currently pays $15/month for Asana"
+    },
+    {
+      "persona_id": "student_sarah",
+      "severity_level": 3,
+      "evidence": "Sarah is overwhelmed by coursework and needs to manage assignments. Although she's somewhat disappointed if she could no longer use the product, there is no login/registration on the tasks page which is frustrating. She might use the product again tomorrow, but only after the issues are resolved. Her recommendation rating is a 5/10. Willing to pay $5/month, currently using a free to-do list app.",
+      "current_workarounds": [
+        "Free to-do list app"
+      ],
+      "pain_intensity": 6,
+      "willingness_to_pay_signal": "$5/month"
+    },
+    {
+      "persona_id": "retired_gardener_george",
+      "severity_level": 1,
+      "evidence": "George wants to keep track of gardening tasks, but the complexity of technology and resistance to new tools leads him to not care and be not disappointed. The application is confusing and he would not use the application again. Recommending is a 1/10. Willing to pay $0.",
+      "current_workarounds": [
+        "Notebook",
+        "Calendar"
+      ],
+      "pain_intensity": 2,
+      "willingness_to_pay_signal": "$0/month"
+    },
+    {
+      "persona_id": "cynical_software_engineer_chris",
+      "severity_level": 2,
+      "evidence": "Chris evaluates application features and identifies potential bugs, showing he knows the problem exists. His patience is low, he's frustrated, and describes his 'aha moment' as realizing how much time he wasted trying to navigate the product. Somewhat disappointed if he could no longer use the application. Would not recommend at 2/10. Willing to pay $0.",
+      "current_workarounds": [
+        "Notepad and Pen"
+      ],
+      "pain_intensity": 4,
+      "willingness_to_pay_signal": "$0/month"
+    }
+  ],
+  "distribution": {
+    "level_4_hair_on_fire": 0.4,
+    "level_3_painful": 0.2,
+    "level_2_aware": 0.2,
+    "level_1_latent": 0.2
+  },
+  "pmf_readiness": "Still exploring problem space"
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "positioning": "A highly visual, Kanban-style project management tool well-suited for team collaboration and task tracking.",
+    "strengths": [
+      "Intuitive drag-and-drop interface",
+      "Excellent for visualizing workflows",
+      "Robust integrations with other tools"
+    ],
+    "weaknesses": [
+      "Limited reporting capabilities in the free tier",
+      "Can become unwieldy with complex projects",
+      "Daily/weekly/monthly views are not natively a strength"
+    ],
+    "pricing_model": "freemium",
+    "confidence": "high"
+  },
+  {
+    "name": "Asana",
+    "url": "https://asana.com/",
+    "positioning": "A comprehensive work management platform designed for teams to track and manage projects, tasks, and deadlines.",
+    "strengths": [
+      "Advanced task management features (dependencies, custom fields)",
+      "Strong reporting and analytics",
+      "Good for complex projects with multiple stakeholders"
+    ],
+    "weaknesses": [
+      "Steeper learning curve than Trello",
+      "Can be overwhelming for simple task lists",
+      "Free tier has limitations on team size"
+    ],
+    "pricing_model": "freemium",
+    "confidence": "high"
+  },
+  {
+    "name": "Todoist",
+    "url": "https://todoist.com/",
+    "positioning": "A simple and elegant task management app focused on personal productivity and GTD (Getting Things Done) principles.",
+    "strengths": [
+      "Clean and user-friendly interface",
+      "Cross-platform availability",
+      "Effective for managing personal tasks and reminders"
+    ],
+    "weaknesses": [
+      "Limited collaborative features compared to Asana or Trello",
+      "Reporting features are basic",
+      "Less visual than Kanban-style boards"
+    ],
+    "pricing_model": "freemium",
+    "confidence": "high"
+  },
+  {
+    "name": "Google Calendar + Google Tasks",
+    "url": "https://calendar.google.com/",
+    "positioning": "A widely used calendar application combined with a basic task management tool, offering a simple and integrated solution for scheduling and task tracking.",
+    "strengths": [
+      "Free and readily available for Google users",
+      "Integration with other Google services (Gmail, Drive)",
+      "Simple and easy to use for basic task management"
+    ],
+    "weaknesses": [
+      "Limited task management features compared to dedicated apps",
+      "Collaboration features are basic",
+      "Not designed for complex project management"
+    ],
+    "pricing_model": "free",
+    "confidence": "medium"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so/",
+    "positioning": "An all-in-one workspace that combines note-taking, project management, and knowledge base capabilities.",
+    "strengths": [
+      "Highly customizable and flexible",
+      "Can be used for a wide variety of tasks and projects",
+      "Offers a robust free plan"
+    ],
+    "weaknesses": [
+      "Can be overwhelming due to its flexibility",
+      "Steeper learning curve than simpler task management apps",
+      "Not specifically optimized for task management workflows compared to dedicated solutions"
+    ],
+    "pricing_model": "freemium",
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "ttfma_seconds": 12,
+  "hesitation_events": [
+    {
+      "timestamp_ms": 0,
+      "duration_ms": 5000,
+      "context": "Okay, here's the tasks page. It looks...busy. Lots of options right off the bat."
+    }
+  ],
+  "backtrack_events": [],
+  "total_time_seconds": 15,
+  "steps_count": 7,
+  "optimal_steps": 17,
+  "efficiency_score": 100
+}

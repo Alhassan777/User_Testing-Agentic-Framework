@@ -1,0 +1,71 @@
+{
+  "hypotheses": [
+    {
+      "id": "ab_001",
+      "issue_addressed": "issue_001",
+      "hypothesis": "By implementing a clear and functional account creation flow with prominent 'Sign Up' and 'Login' buttons on the landing page, we expect an increase in successful account creation and login rates, leading to improved user engagement.",
+      "control": "Current: Landing page automatically logs users in without explicit account creation, leading to confusion.",
+      "variant": "Test: Landing page presents clear 'Sign Up' and 'Login' buttons, with a link to password reset if necessary.",
+      "primary_metric": "Signup completion rate",
+      "expected_lift": "+25%",
+      "confidence": 95,
+      "sample_size_estimate": "~1000 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_002",
+      "issue_addressed": "issue_002",
+      "hypothesis": "By adding a brief welcome message and a short interactive tutorial explaining the purpose of the application and guiding users through the initial setup (creating a task, etc.), we expect an increase in task creation within the first session and a reduced bounce rate.",
+      "control": "Current: Users are immediately presented with a pre-populated dashboard with sports-related tasks, causing confusion.",
+      "variant": "Test: Display a welcome modal on first visit with a brief explanation and guide through key features.",
+      "primary_metric": "Task creation rate in the first session",
+      "expected_lift": "+20%",
+      "confidence": 90,
+      "sample_size_estimate": "~1000 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_003",
+      "issue_addressed": "issue_003",
+      "hypothesis": "By providing contextually relevant default task list content to new users or a blank state with clear instructions on creating new tasks, we expect an increase in engagement and task completion rates.",
+      "control": "Current: Users are presented with irrelevant default content (sports-related tasks).",
+      "variant": "Test: Display a blank task list and a CTA to start adding tasks.",
+      "primary_metric": "Task completion rate",
+      "expected_lift": "+15%",
+      "confidence": 85,
+      "sample_size_estimate": "~1000 users per variant",
+      "risk_level": "low"
+    },
+    {
+      "id": "ab_004",
+      "issue_addressed": "issue_004",
+      "hypothesis": "By explicitly communicating data protection measures and displaying a valid TLS certificate, we expect an increase in user trust and willingness to provide personal information, ultimately leading to higher signup completion rates and retention.",
+      "control": "Current: Automatic login and lack of explicit security information raise security concerns.",
+      "variant": "Test: Display a link to Privacy Policy and security practices in the footer and a padlock icon in the address bar to indicate TLS is enabled.",
+      "primary_metric": "Signup completion rate",
+      "expected_lift": "+10%",
+      "confidence": 75,
+      "sample_size_estimate": "~1000 users per variant",
+      "risk_level": "medium"
+    },
+    {
+      "id": "ab_005",
+      "issue_addressed": "issue_005",
+      "hypothesis": "By adding a User Management section within the app (accessible via the settings page), team leaders/project managers will more easily be able to add users, thus increasing user adoption and engagement. ",
+      "control": "Current: No explicit user management panel is present",
+      "variant": "Test: Add an intuitive 'Manage Users' section",
+      "primary_metric": "Number of users added per team leader",
+      "expected_lift": "+35%",
+      "confidence": 60,
+      "sample_size_estimate": "~100 team leaders per variant",
+      "risk_level": "medium"
+    }
+  ],
+  "prioritized_order": [
+    "ab_001",
+    "ab_002",
+    "ab_003",
+    "ab_004",
+    "ab_005"
+  ]
+}

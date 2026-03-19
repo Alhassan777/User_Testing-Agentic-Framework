@@ -1,0 +1,11 @@
+export declare function handleSynthUxFullTest(args: Record<string, unknown>): string;
+export declare function handleHeuristicEvaluate(args: Record<string, unknown>): string;
+export declare function handlePersonaGenerate(args: Record<string, unknown>): string;
+export declare function handleSessionSimulate(args: Record<string, unknown>): string;
+export declare function handleJtbdAnalyze(args: Record<string, unknown>): string;
+export declare function handleProblemSeverityClassify(args: Record<string, unknown>): string;
+export declare function handleReflectionInterview(args: Record<string, unknown>): string;
+export declare function handleReportGenerate(args: Record<string, unknown>): string;
+export declare function handleSegmentHeatMap(args: Record<string, unknown>): string;
+export declare function handleVoiceOfUserDigest(args: Record<string, unknown>): string;
+export declare function handleListAgents(): string;

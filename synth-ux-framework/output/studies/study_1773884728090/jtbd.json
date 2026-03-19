@@ -1,0 +1,45 @@
+{
+  "functional_job": "Help me manage my tasks effectively so I can achieve my goals.",
+  "emotional_job": "Make me feel organized and in control when facing a heavy workload.",
+  "social_job": "Help me appear reliable and competent to my colleagues and manager.",
+  "current_solutions": [
+    "spreadsheets",
+    "pen and paper",
+    "Trello",
+    "Asana",
+    "Remember The Milk"
+  ],
+  "switching_triggers": [
+    "missed deadlines",
+    "lack of visibility on team progress",
+    "too many tools being used"
+  ],
+  "switching_anxieties": [
+    "data migration",
+    "steep learning curve",
+    "cost of subscription",
+    "integration issues with existing tools"
+  ],
+  "hiring_criteria": {
+    "must_have": [
+      "easy to use interface",
+      "clear task organization",
+      "collaboration features",
+      "reliable reminders",
+      "multiple views (daily/weekly/monthly)"
+    ],
+    "nice_to_have": [
+      "tagging and categorization",
+      "reporting features",
+      "integration with other apps",
+      "mobile app",
+      "customizable notifications"
+    ],
+    "dealbreakers": [
+      "unreliable performance",
+      "poor user experience",
+      "lack of collaboration features",
+      "high cost"
+    ]
+  }
+}

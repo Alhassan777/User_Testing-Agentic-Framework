@@ -1,0 +1,70 @@
+{
+  "persona_id": "small_business_owner_sarah",
+  "persona_name": "Sarah Chen",
+  "questions": [
+    {
+      "question": "What was your overall impression of the product?",
+      "answer": "Honestly, I was a little confused. It felt like I walked into the wrong room. All those sports and school tasks... not what I need for my bakery.",
+      "insight": "The default content was completely irrelevant to the target user."
+    },
+    {
+      "question": "What was the most confusing part?",
+      "answer": "Definitely seeing all those pre-filled tasks that have nothing to do with running a bakery. 'Football'? 'Capstone Meeting'? What am I supposed to do with that?",
+      "insight": "Irrelevant example content created a negative first impression."
+    },
+    {
+      "question": "What was the most delightful part?",
+      "answer": "Well, I can't really say anything was *delightful*. 'Add New Task' button *seemed* promising, but when I clicked it, nothing happened. So, yeah, no delight to report, sadly.",
+      "insight": "Absence of a positive experience. Lack of functionality compounded the negative impression."
+    },
+    {
+      "question": "How would you feel if you could no longer use this product?",
+      "answer": "I wouldn't be disappointed at all. Right now, it doesn't solve any problems for me.",
+      "insight": "The product doesn't meet the user's needs."
+    },
+    {
+      "question": "Would you use this again tomorrow? Why or why not?",
+      "answer": "No, I wouldn't. It's just not helpful to me in its current state. It feels like it would create *more* work to try and fix all the stuff that's wrong, and I don't have time for that.",
+      "insight": "The product is currently perceived as more trouble than it's worth."
+    },
+    {
+      "question": "Who specifically would you recommend this to? What would you tell them?",
+      "answer": "Honestly, I can't think of anyone I'd recommend it to *right now*. I'd need to see significant changes before I'd even think about suggesting it.",
+      "insight": "No one is top of mind as the tool has significant usability issues for the user."
+    },
+    {
+      "question": "What would you pay for this? What do you currently pay for alternatives?",
+      "answer": "I wouldn't pay anything for it as it is. Right now, I'm just using a paper planner, which costs me maybe $10 a year. It's simple, but at least it works.",
+      "insight": "The user perceives no value in the current product, especially compared to their current, low-cost solution."
+    },
+    {
+      "question": "What would need to change for you to commit to using this regularly?",
+      "answer": "First, it needs to be relevant to my business. Get rid of all the sports and school stuff! Then, I need to be able to easily add, delete, and change tasks. And the 'Add New Task' button *needs* to work!",
+      "insight": "The user needs relevant content and basic task management functionality."
+    },
+    {
+      "question": "What's missing that you expected to find?",
+      "answer": "I was expecting a simple way to list my bakery tasks, set deadlines, and maybe assign them to my staff. I didn't see any of that.",
+      "insight": "Core functionality for task management is missing."
+    },
+    {
+      "question": "How does this compare to [competitor/alternative]?",
+      "answer": "I'm using a paper planner. It's easier to add tasks on the fly than struggling with this, and less complicated.",
+      "insight": "Current competitive alternative is simpler and more responsive to the users specific needs."
+    },
+    {
+      "question": "What was your \"aha moment\" if any?",
+      "answer": "No 'aha moment' at all. More like a 'huh?' moment.",
+      "insight": "There was no positive or insightful realization."
+    },
+    {
+      "question": "On a scale of 1-10, how likely are you to recommend this?",
+      "answer": "I'd say a 2. And that's being generous.",
+      "insight": "The product has a very low likelihood of recommendation."
+    }
+  ],
+  "sean_ellis_score": "not_disappointed",
+  "would_return": false,
+  "referral_specificity": "no one",
+  "willingness_to_pay": "$0/month"
+}

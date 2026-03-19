@@ -1,0 +1,52 @@
+{
+  "functional_job": "Help me manage my tasks/missions so I can be more productive and organized.",
+  "emotional_job": "Make me feel confident and in control when managing my workload.",
+  "social_job": "Help me appear competent and reliable to my colleagues/team.",
+  "current_solutions": [
+    "spreadsheets",
+    "Trello",
+    "Asana",
+    "Notion",
+    "Remember The Milk",
+    "Physical Task Boards",
+    "Email Reminders"
+  ],
+  "switching_triggers": [
+    "feeling overwhelmed by current task management",
+    "missing deadlines",
+    "poor collaboration with team",
+    "inability to track progress effectively",
+    "current tool is too complex or too simple"
+  ],
+  "switching_anxieties": [
+    "data migration",
+    "learning curve",
+    "lack of integration with other tools",
+    "cost of subscription",
+    "loss of important data"
+  ],
+  "hiring_criteria": {
+    "must_have": [
+      "task creation and assignment",
+      "deadline tracking",
+      "progress visualization",
+      "user authentication and security",
+      "email/Google/Facebook/Github login"
+    ],
+    "nice_to_have": [
+      "integration with other apps (e.g., calendar, email)",
+      "reporting and analytics",
+      "mobile app",
+      "customizable workflows",
+      "team collaboration features",
+      "reminders"
+    ],
+    "dealbreakers": [
+      "poor user interface",
+      "unreliable performance",
+      "lack of security",
+      "excessive cost",
+      "limited features"
+    ]
+  }
+}

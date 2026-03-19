@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "app_name": "DreamDuo",
+    "generated_at": "2026-03-19T01:43:05.874Z",
+    "total_findings": 5,
+    "export_version": "1.0"
+  },
+  "summary": {
+    "by_severity": {
+      "critical": 3,
+      "high": 2
+    },
+    "by_screen": {
+      "after_login": 5
+    }
+  },
+  "findings": [
+    {
+      "id": "ann_1",
+      "index": 1,
+      "title": "Automatic Login / Welcome Message",
+      "description": "Users see \"Welcome back! Successfully logged in to Survey Corps\" without creating an account - confusing and raises security concerns.",
+      "severity": "critical",
+      "screen": "after_login",
+      "element": "Green success toast message",
+      "location": {
+        "x": 38,
+        "y": 73,
+        "width": 28,
+        "height": 10
+      }
+    },
+    {
+      "id": "ann_2",
+      "index": 2,
+      "title": "Wrong Account Name (Survey Corps)",
+      "description": "App is DreamDuo but shows \"Survey Corps\" - wrong branding or leftover test data.",
+      "severity": "high",
+      "screen": "after_login",
+      "element": "Survey Corps text in toast",
+      "location": {
+        "x": 38,
+        "y": 77,
+        "width": 28,
+        "height": 5
+      }
+    },
+    {
+      "id": "ann_3",
+      "index": 3,
+      "title": "Incorrect Sample Tasks",
+      "description": "Random unrelated tasks (Football, Capstone Meeting, Book the Field) appear as if belonging to another user.",
+      "severity": "critical",
+      "screen": "after_login",
+      "element": "Task cards showing irrelevant content",
+      "location": {
+        "x": 10,
+        "y": 28,
+        "width": 85,
+        "height": 55
+      }
+    },
+    {
+      "id": "ann_4",
+      "index": 4,
+      "title": "Pre-populated User Data",
+      "description": "User avatar (E) and existing tasks suggest logging into someone else's account - privacy concern.",
+      "severity": "critical",
+      "screen": "after_login",
+      "element": "User avatar showing E",
+      "location": {
+        "x": 2,
+        "y": 2,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "id": "ann_5",
+      "index": 5,
+      "title": "No Logout or Account Settings Visible",
+      "description": "No clear way to logout or access account settings from the main view.",
+      "severity": "high",
+      "screen": "after_login",
+      "element": "Left navigation sidebar missing account options",
+      "location": {
+        "x": 0,
+        "y": 10,
+        "width": 8,
+        "height": 60
+      }
+    }
+  ]
+}
